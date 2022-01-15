@@ -24,10 +24,15 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
         }
 }
 
+Import-Module oh-my-posh
+oh-my-posh --init --shell pwsh --config "$root/Themes/my-themes/default.omp.json" | Invoke-Expression
+#Set-PoshPrompt -Theme "$root/tema.omp.json"
+Set-PoshPrompt -Theme Paradox
+
 if (-Not (Get-Module -ListAvailable -Name posh-cli)) {
-    Install-Module posh-cli -Scope CurrentUser    
+    Install-Module posh-cli -Scope CurrentUser
     Install-TabCompletion
-    
+
     Import-Module posh-dotnet
     Import-Module DockerCompletion
     Import-Module PSKubectlCompletion

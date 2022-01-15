@@ -12,13 +12,25 @@ function glog {
 	git log --oneline -$args
 }
 
+#dotnet alias
+Add-Alias rebuild 'dotnet msbuild -t:Rebuild -m:2'
+Add-Alias build 'dotnet msbuild -m:2'
+
+function rebuilt {
+	dotnet msbuild -t:Rebuild -m:$args
+}
+
+function built {
+	dotnet msbuild -m:$args
+}
+
 function cg-th() {
 	Change-Theme
 }
 
 <#
     .Synopsis
-    Altera para um tema do OMP menos poluído 
+    Altera para um tema do OMP menos poluído
 #>
 function Change-Theme(){
 	(@(& 'C:/Users/bueno/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\bueno\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression
