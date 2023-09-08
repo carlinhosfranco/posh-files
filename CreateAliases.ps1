@@ -13,17 +13,17 @@ function glog {
     git log --oneline -$args
 }
 
+function gco {
+    $branch = git branch -l | fzf --ansi --preview="git log --color=always {1}" --preview-window=up:70%
+
+    if ($branch) {
+        git checkout $branch.trim()
+    }
+}
+
 #dotnet alias
 Add-Alias rebuild 'dotnet clean; dotnet restore --interactive; dotnet build'
 Add-Alias build 'dotnet build'
-
-function rebuilt {
-    dotnet msbuild -t:Rebuild -m:$args
-}
-
-function built {
-    dotnet msbuild -m:$args
-}
 
 <#
     .Synopsis
@@ -54,13 +54,13 @@ function update-Cred {
 }
 
 function cg-th() {
-	Change-Theme
+    Change-Theme
 }
 
 <#
     .Synopsis
     Altera para um tema do OMP menos poluído
 #>
-function Change-Theme(){
+function Change-Theme() {
 	(@(& 'C:/Users/bueno/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\bueno\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression
 }

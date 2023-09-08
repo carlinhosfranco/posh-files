@@ -1,12 +1,12 @@
 function IeproFlow-Help() {
     Write-Host "New-FeatureBranch" -ForegroundColor Yellow -NoNewline
-    Write-Host " (alias: new-ft)`n  Cria uma nova feature branch"`n    
+    Write-Host " (alias: new-ft)`n  Cria uma nova feature branch"`n
 
     Write-Host "New-TaskBranch" -ForegroundColor Yellow  -NoNewline
-    Write-Host " (alias: new-tsk)`n  Cria uma nova branch de tarefa"`n 
-    
+    Write-Host " (alias: new-tsk)`n  Cria uma nova branch de tarefa"`n
+
     Write-Host "Checkout-FeatureBranch" -ForegroundColor Yellow -NoNewline
-    Write-Host " (alias: co-ft)`n  Faz checkout para feature branch especificada"`n  
+    Write-Host " (alias: co-ft)`n  Faz checkout para feature branch especificada"`n
 
     Write-Host "Checkout-TaskBranch" -ForegroundColor Yellow -NoNewline
     Write-Host " (alias: co-tsk)`n  Faz checkout para a branch de tarefa especificada"`n
@@ -59,7 +59,7 @@ function rbft {
     Id da feature
 
     .Parameter from
-    Define a branch que será usada como origem para criar a nova branch. 
+    Define a branch que será usada como origem para criar a nova branch.
     Se não for informada, toma 'main' como padrão
 #>
 function New-FeatureBranch {
@@ -75,14 +75,14 @@ function New-FeatureBranch {
 <#
     .Synopsis
     Cria uma nova feature branch de tarefa no formato story-Id/task/[Tarefa].
-    É possível especificar a feature de origem usando o parâmetro -feature ou criar automaticamente com base na branch atual desde que ela respeite o padrão story-id/feature. 
+    É possível especificar a feature de origem usando o parâmetro -feature ou criar automaticamente com base na branch atual desde que ela respeite o padrão story-id/feature.
     Também é possível criar a feature (a partir da main) usando o switch -createFeature
 
     .Parameter task
     Id da tarefa
 
     .Parameter feature
-    [Opcional] Id da feature que a tarefa pertence. 
+    [Opcional] Id da feature que a tarefa pertence.
     Caso não seja informado será usada a branch atual (desde que ela respeite o padrão de nome de uma feature).
     Caso seja informado, mas a feature não existir será retornado um erro, a não ser que seja usado o switch -createFeature
 
@@ -127,17 +127,17 @@ function New-TaskBranch {
             }
         }
     }
-    
+
     git checkout -b "$featurePrefix/task-$task" $featureBranch
 }
 
 <#
     .Synopsis
     Faz checkout para a feature branch informada ou para a feature branch referente à branch atual
-    
+
     .Parameter feature
     (Opcional) Id da feature. Caso não seja informado, a feature branch será inferida a partir da
-    branch atual (desde que ela siga o padrão story-[IdFeature]/task/[IdTask])    
+    branch atual (desde que ela siga o padrão story-[IdFeature]/task/[IdTask])
 #>
 function Checkout-FeatureBranch {
     param (
@@ -148,7 +148,7 @@ function Checkout-FeatureBranch {
     if (-Not $feature) {
         $featureBranchName = Get-Current-Feature
 
-        if (-Not $featureBranchName) { 
+        if (-Not $featureBranchName) {
             Return
         }
 
@@ -218,13 +218,13 @@ function Rebase-From-Main {
         [Parameter(Mandatory = $false)]
         [Alias("o")]
         [switch] $origin
-    ) 
+    )
 
     $branch = "main"
     if ($origin) {
         $branch = "origin/main"
     }
-    
+
     git rebase $branch
 }
 
@@ -240,7 +240,7 @@ function Rebase-From-Feature {
         [Parameter(Mandatory = $false)]
         [Alias("o")]
         [switch] $origin
-    ) 
+    )
 
     $branch = Get-Current-Feature
 
