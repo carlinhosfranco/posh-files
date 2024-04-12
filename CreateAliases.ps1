@@ -1,16 +1,24 @@
 Add-Alias co 'git checkout'
+Add-Alias coback 'git checkout -'
 Add-Alias gst 'git status'
-Add-Alias grb 'git rebase'
-Add-Alias glg 'git log --oneline -10'
-Add-Alias fetch 'git fetch'
+Add-Alias grb 'git rebase -i'
+Add-Alias gglg 'git log --graph --oneline --decorate --all -30'
+Add-Alias glgl 'git log --oneline -20'
+Add-Alias fetch 'git fetch -ap'
 Add-Alias push 'git push'
 Add-Alias pull 'git pull'
 Add-Alias pushsync 'git push --set-upstream origin HEAD'
 Add-Alias fush 'git push --force-with-lease'
 Add-Alias gredev 'git reset --hard origin/develop'
+#Add-Alias rehead 'git reset --hard origin HEAD'
+#git log --graph --oneline --decorate --all
 
-function glog {
+function gllog {
     git log --oneline -$args
+}
+
+function gglog {
+    git log --graph --oneline --decorate --all -$args
 }
 
 function gco {
@@ -61,6 +69,28 @@ function cg-th() {
     .Synopsis
     Altera para um tema do OMP menos poluído
 #>
-function Change-Theme() {
-	(@(& 'C:/Users/bueno/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='C:\Users\bueno\AppData\Local\Programs\oh-my-posh\themes\craver.omp.json' --print) -join "`n") | Invoke-Expression
+# function Change-Theme() {
+# 	(@(& 'C:/Users/franc/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='PATH_TO_THE_THEME' --print) -join "`n") | Invoke-Expression
+# }
+
+#winget list --upgrade-available
+
+function gahelp {
+
+    $stringHelp = "
+    co 'git checkout'
+    gst 'git status'
+    grb 'git rebase -i'
+    glg 'git log --oneline -10'
+    fetch 'git fetch'
+    push 'git push'
+    pull 'git pull'
+    pushsync 'git push --set-upstream origin HEAD'
+    fush 'git push --force-with-lease'
+    gredev 'git reset --hard origin/develop'
+    gglg 'git log --graph --oneline --decorate --all -30'
+    glgl 'git log --oneline -20'
+    "
+
+    Write-Host $stringHelp
 }
