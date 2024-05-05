@@ -3,15 +3,34 @@ Add-Alias coback 'git checkout -'
 Add-Alias gst 'git status'
 Add-Alias grb 'git rebase -i'
 Add-Alias gglg 'git log --graph --oneline --decorate --all -30'
-Add-Alias glgl 'git log --oneline -20'
+Add-Alias glgl 'git log --oneline'
 Add-Alias fetch 'git fetch -ap'
 Add-Alias push 'git push'
 Add-Alias pull 'git pull'
 Add-Alias pushsync 'git push --set-upstream origin HEAD'
 Add-Alias fush 'git push --force-with-lease'
 Add-Alias gredev 'git reset --hard origin/develop'
+Add-Alias branchs 'git branch -vvv'
+Add-Alias br 'git branch'
+Add-Alias brr 'git branch -v'
+Add-Alias brrr 'git branch -vv'
+Add-Alias brrrr 'git branch -vvv'
 #Add-Alias rehead 'git reset --hard origin HEAD'
+
+#Ideia de comando para mostrar as branches mais otimizado
 #git log --graph --oneline --decorate --all
+#git branch -vvv --format='ObjectName: %(objectname) Refname: %(refname) Subject: %(subject)'
+#git branch -vvv --format='Refname: %(refname) Subject: %(subject) Upstream: %(upstream)'
+
+#https://stackoverflow.com/questions/4950725/how-can-i-see-which-git-branches-are-tracking-which-remote-upstream-branch
+# git config --global alias.track '!f() { ([ $# -eq 2 ] && ( echo "Setting tracking for branch " $1 " -> " $2;git branch --set-upstream $1 $2; ) || ( git for-each-ref --format="local: %(refname:short) <--sync--> remote: %(upstream:short)" refs/heads && echo --Remotes && git remote -v)); }; f'
+
+function cure {
+#https://stackoverflow.com/questions/4950725/how-can-i-see-which-git-branches-are-tracking-which-remote-upstream-branch
+# git config --global alias.track '!f() { ([ $# -eq 2 ] && ( echo "Setting tracking for branch " $1 " -> " $2;git branch --set-upstream $1 $2; ) || ( git for-each-ref --format="local: %(refname:short) <--sync--> remote: %(upstream:short)" refs/heads && echo --Remotes && git remote -v)); }; f'
+    $currentBranch = git branch --format='%(upstream:short)'
+    git reset --hard $currentBranch.trim()
+}
 
 function gllog {
     git log --oneline -$args

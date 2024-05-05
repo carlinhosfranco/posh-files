@@ -1,4 +1,12 @@
 #winget upgrade JanDeDobbeleer.OhMyPosh -s winget
+#$previousOutputEncoding = [Console]::OutputEncoding
+# [Console]::OutputEncoding = [Text.Encoding]::UTF8
+
+# try {
+#     oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
+# } finally {
+#     [Console]::OutputEncoding = $previousOutputEncoding
+# }
 $root = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $localModulesDir = Join-Path $root Modules
 
@@ -50,7 +58,7 @@ if ($env:TERM_PROGRAM -eq "vscode") { . "$(code --locate-shell-integration-path 
 # [Console]::OutputEncoding = [Text.Encoding]::UTF8
 
 # try {
-#     oh-my-posh init pwsh --config ~/custom.omp.json | Invoke-Expression
+#     oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
 # } finally {
 #     [Console]::OutputEncoding = $previousOutputEncoding
 # }
