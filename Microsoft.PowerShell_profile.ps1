@@ -1,26 +1,39 @@
-#winget upgrade JanDeDobbeleer.OhMyPosh -s winget
-#$previousOutputEncoding = [Console]::OutputEncoding
-# [Console]::OutputEncoding = [Text.Encoding]::UTF8
+<# Issues
 
-# try {
-#     oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
-# } finally {
-#     [Console]::OutputEncoding = $previousOutputEncoding
-# }
+Dotnet Tab completion: https://learn.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete
+
+#Help Commands
+#oh-my-posh config migrate glyphs --write
+
+#>
+
 $root = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $localModulesDir = Join-Path $root Modules
 
-Import-Module PSReadline
+#region Add Alias
+
 Import-Module "$localModulesDir/posh-alias"
+#. "$root/CreateAliases.ps1"
+. "$root/Aliases/GeneralAliases.ps1"
+. "$root/Aliases/GitAliases.ps1"
+
+#External Codes
+. "$root/ExternalCodes/rustTabCompletion.ps1"
+
+#endregion
 
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
-if (-Not (Get-Module -ListAvailable -Name posh-git)) {
-    Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force
-}
+#region Import Modules
 
+#Import-Module "$localModulesDir/posh-alias"
+Import-Module PSReadline
 Import-Module posh-git
+
+#endregion
+
+#region Configs
 
 oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
 
@@ -33,35 +46,6 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
     }
 }
 
-if (-Not (Get-Module -ListAvailable -Name posh-cli)) {
-    Install-Module posh-cli -Scope CurrentUser
-    Install-TabCompletion
-
-    Import-Module posh-dotnet
-    Import-Module DockerCompletion
-    Import-Module PSKubectlCompletion
-    Import-Module posh-cargo
-}
-
-#. "$root/CreateAliases.ps1"
-. "$root/Aliases/GeneralAliases.ps1"
-. "$root/Aliases/GitAliases.ps1"
-
 if ($env:TERM_PROGRAM -eq "vscode") { . "$(code --locate-shell-integration-path pwsh)" }
 
-# Import-Module posh-cargo
-# Import-Module posh-dotnet
-# Import-Module DockerCompletion
-# Import-Module PSKubectlCompletion
-
-# $previousOutputEncoding = [Console]::OutputEncoding
-# [Console]::OutputEncoding = [Text.Encoding]::UTF8
-
-# try {
-#     oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
-# } finally {
-#     [Console]::OutputEncoding = $previousOutputEncoding
-# }
-
-#Help Commands
-#oh-my-posh config migrate glyphs --write
+#endregion

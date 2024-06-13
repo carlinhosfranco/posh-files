@@ -1,15 +1,28 @@
+<# Issues
+
+Tab completion: https://github.com/dahlbyk/posh-git/issues/852
+Configs posh-git: $GitPromptSettings $GitTabSettings
+
+#>
+
 Add-Alias co 'git checkout'
 Add-Alias coback 'git checkout -'
+Add-Alias gswb 'git switch -'
+
 Add-Alias gst 'git status'
+
 Add-Alias grb 'git rebase -i'
+
 Add-Alias gglg 'git log --graph --oneline --decorate --all -30'
 Add-Alias glgl 'git log --oneline'
+
 Add-Alias fetch 'git fetch -ap'
 Add-Alias push 'git push'
 Add-Alias pull 'git pull'
 Add-Alias pushsync 'git push --set-upstream origin HEAD'
 Add-Alias fush 'git push --force-with-lease'
 Add-Alias gredev 'git reset --hard origin/develop'
+
 Add-Alias branchs 'git branch -vvv'
 Add-Alias br 'git branch'
 Add-Alias brr 'git branch -v'
@@ -22,6 +35,7 @@ Add-Alias brrrr 'git branch -vvv'
 #git branch -vvv --format='ObjectName: %(objectname) Refname: %(refname) Subject: %(subject)'
 #git branch -vvv --format='Refname: %(refname) Subject: %(subject) Upstream: %(upstream)'
 
+#git push origin :$branchname
 #https://stackoverflow.com/questions/4950725/how-can-i-see-which-git-branches-are-tracking-which-remote-upstream-branch
 # git config --global alias.track '!f() { ([ $# -eq 2 ] && ( echo "Setting tracking for branch " $1 " -> " $2;git branch --set-upstream $1 $2; ) || ( git for-each-ref --format="local: %(refname:short) <--sync--> remote: %(upstream:short)" refs/heads && echo --Remotes && git remote -v)); }; f'
 
@@ -48,11 +62,39 @@ function gco {
     }
 }
 
+function gsw {
+    Switch-Branch @args
+}
+
+<#
+    .Synopsis
+    Faz checkout para a feature branch informada ou para a feature branch referente à branch atual
+
+    .Parameter feature
+    (Opcional) Id da feature. Caso não seja informado, a feature branch será inferida a partir da
+    branch atual (desde que ela siga o padrão story-[IdFeature]/task/[IdTask])
+#>
+function Switch-Branch {
+    param (
+        [Parameter(Mandatory = $true)]
+        [string]$branchName
+    )
+
+    if (-Not $feature) {
+        git switch $branchName
+        Return
+    }
+
+    git switch "$feature"
+}
+
 function gahelp {
 
     $stringHelp = "
     co 'git checkout'
     gst 'git status'
+    gswb 'git switch -'
+    gsw 'git switch [branchName]'
     grb 'git rebase -i'
     glg 'git log --oneline -10'
     fetch 'git fetch'
