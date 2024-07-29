@@ -7,6 +7,11 @@ Dotnet Tab completion: https://learn.microsoft.com/en-us/dotnet/core/tools/enabl
 
 #>
 
+# A new release of Oh My Posh is available: v21.16.0 → v21.16.2
+# To upgrade, run: 'oh-my-posh upgrade'
+
+# To enable automated upgrades, set 'auto_upgrade' to 'true' in your configuration.
+
 $root = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $localModulesDir = Join-Path $root Modules
 
