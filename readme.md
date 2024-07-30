@@ -9,7 +9,7 @@ Para instalar, execute:
 1. Clonar o repositório
 
     ```pwsh
-    git clone --recursive https://github.com/jfbueno/posh-files.git $env:UserProfile/Documents/PowerShell
+    git clone --recursive https://github.com/carlinhosfranco/posh-files.git $env:UserProfile/Documents/PowerShell
     ```
 
 2. Instalar as dependências com winget

@@ -1,3 +1,5 @@
-Modules/
-
-TODO
+!/Modules
+/Modules/*
+!/Modules/README.md
+!/Themes
+!Themes
