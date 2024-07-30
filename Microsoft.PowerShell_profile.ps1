@@ -11,19 +11,23 @@ Dotnet Tab completion: https://learn.microsoft.com/en-us/dotnet/core/tools/enabl
 # To upgrade, run: 'oh-my-posh upgrade'
 
 # To enable automated upgrades, set 'auto_upgrade' to 'true' in your configuration.
-
+oh-my-posh init pwsh --config "$root/Themes/my-themes/huvix.omp.json" | Invoke-Expression
 $root = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $localModulesDir = Join-Path $root Modules
 
 #region Add Alias
 
 Import-Module "$localModulesDir/posh-alias"
-#. "$root/CreateAliases.ps1"
 . "$root/Aliases/GeneralAliases.ps1"
 . "$root/Aliases/GitAliases.ps1"
+. "$root/Aliases/AbcAliases.ps1"
 
 #External Codes
 . "$root/ExternalCodes/rustTabCompletion.ps1"
+
+#region Add Functions
+
+. "$root/Functions/Abc.Functions.ps1"
 
 #endregion
 
@@ -39,8 +43,6 @@ Import-Module posh-git
 #endregion
 
 #region Configs
-
-oh-my-posh init pwsh --config "$root/Themes/my-themes/carlos.omp.json" | Invoke-Expression
 
 $env:POSH_GIT_ENABLED = $true
 
