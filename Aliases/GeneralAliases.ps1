@@ -3,7 +3,8 @@
 #region oh My Posh
 
 #winget upgrade JanDeDobbeleer.OhMyPosh -s winget
-Add-Alias ohPoshUpgrade 'winget upgrade JanDeDobbeleer.OhMyPosh -s winget'
+#Add-Alias ohPoshUpgrade 'winget upgrade JanDeDobbeleer.OhMyPosh -s winget'
+Add-Alias ohPoshUpgrade 'oh-my-posh upgrade'
 #oh-my-posh config migrate glyphs --write
 
 #endregion

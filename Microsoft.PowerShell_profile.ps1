@@ -13,7 +13,7 @@ Dotnet Tab completion: https://learn.microsoft.com/en-us/dotnet/core/tools/enabl
 # To enable automated upgrades, set 'auto_upgrade' to 'true' in your configuration.
 $root = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $localModulesDir = Join-Path $root Modules
-oh-my-posh init pwsh --config "$root/TerminalThemes/huvix.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$root/TerminalThemes/carlos-huvix.omp.json" | Invoke-Expression
 
 #region Add Alias
 

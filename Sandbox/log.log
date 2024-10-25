@@ -1,0 +1,252 @@
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.ABCIBPJ
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.CentralNotificacao
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.Favorito
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.PixControleLimites
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.PixIntencao
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.PixLiquidacoes
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Migrations.Transferencia
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Authorization.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching AutorizarTransacoes.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Backoffice.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Backoffice.GestaoUsuarios.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching BoletosCobranca.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Cobranca.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Comprovante.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ConsultaTransacoes.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ControleLimites.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching DebitoDiretoAutorizado.API
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Favoritos.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching GestaoToken.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching GestaoUsuarios.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching OpenFinance.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Payments.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Chaves.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Consentimento.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Contestacao.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.ControleLimites.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.CopiaCola.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Devolucao.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Historico.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Intencao.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Liquidacoes.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.PrePix.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching TransacoesAgendadas.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching TransactionManager.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Transferencias.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching TransmissaoArquivos.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.Core.Comprovante.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.Core.DbConnect.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Core.DataScience.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Core.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Arquivos.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Authorization.Proxy.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching CentralNotificacao.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Transacoes.Dsl.Lib
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.ESB.Cobranca
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Arquivos.Job.ArquivoRemessa
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Arquivos.Job.ArquivoRetorno
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Arquivos.Job.RetornoCore
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching CentralNotificacao.Job.Agregador
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching CentralNotificacao.Job.EnvioEmail
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching CentralNotificacao.Job.Processamento
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching CentralNotificacao.Job.Validacao
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.RecebeTransferenciasArquivos.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ConsultaCIP.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ExportacaoConsultaTransacoes.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching NotificacaoInicializadora.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching OldRecebePagamentosArquivos.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching Pix.Contestacao.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ProcessaLoteDDA.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ProcessaLotePagamentos.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching RecebePagamentosArquivos.Robot
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Template.Api
+git version 2.46.1.windows.1
+########################################
+########################################
+Fetching ABCBrasil.IB.Corporate.Template.Robot
+git version 2.46.1.windows.1
+########################################

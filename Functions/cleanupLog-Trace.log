@@ -1,0 +1,1556 @@
+ main ≡ .\CleanupGitFolders.ps1 "D:\CWI\ABCBank\Servicos" > cleanupLog.log
+Init Cleanup
+D:\CWI\ABCBank\Servicos
+
+
+Cleanup partially complete
+Not Git Folders:9
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.ABCIBPJ
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Migrations.ABCIBPJ
+ - [deleted]         (none)                -> origin/cafm/ajustes-cabecalho-script
+ - [deleted]         (none)                -> origin/wms/320939-alinhameto-dados
+remote: Azure Repos
+remote: Found 78 objects to send. (21 ms)
+Unpacking objects: 100% (78/78), 98.93 KiB | 46.00 KiB/s, done.
+ * [new branch]      feature/298035-cancelar-teimosinha-rb -> origin/feature/298035-cancelar-teimosinha-rb
+ * [new branch]      feature/306422-revert -> origin/feature/306422-revert
+   5c1c877..556a5ad  feature/release-novos-campos-cancelamento-transacao-307747 -> origin/feature/release-novos-campos-cancelamento-transacao-307747
+ * [new branch]      gc/336356-implementacao-devolucao-boleto -> origin/gc/336356-implementacao-devolucao-boleto
+   35e4974..19c2df6  grs/305808-SPR_USUARIO_CONTA_SEL -> origin/grs/305808-SPR_USUARIO_CONTA_SEL
+   6ffecda..4174c41  main                  -> origin/main
+ * [new branch]      psh/332998-Instrucoes-Rejeitadas -> origin/psh/332998-Instrucoes-Rejeitadas
+ * [new branch]      time-antec-cartoes/321292-perfil-antecipacao-de-cartoes -> origin/time-antec-cartoes/321292-perfil-antecipacao-de-cartoes
+Enumerating objects: 2502, done.
+Counting objects: 100% (2502/2502), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1407/1407), done.
+Writing objects: 100% (2502/2502), done.
+Total 2502 (delta 1507), reused 1994 (delta 1072), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.CentralNotificacao
+remote: Azure Repos
+remote: Found 188 objects to send. (30 ms)
+Receiving objects: 100% (188/188), 46.94 KiB | 2.24 MiB/s, done.
+Resolving deltas: 100% (122/122), completed with 6 local objects.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Migrations.CentralNotificacao
+ * [new branch]      cafm/rebase-feature-notificacoes-pix -> origin/cafm/rebase-feature-notificacoes-pix
+ * [new branch]      cafm/revert-alteracoes -> origin/cafm/revert-alteracoes
+ * [new branch]      feature/311052-v3      -> origin/feature/311052-v3
+ * [new branch]      feature/331001-migrations-notificacao-arquivos-van -> origin/feature/331001-migrations-notificacao-arquivos-van
+ * [new branch]      feature/extrato-derivativos -> origin/feature/extrato-derivativos
+ * [new branch]      feature/release-mensageria-pix-217471 -> origin/feature/release-mensageria-pix-217471
+ * [new branch]      feature/release-templates-notificacoes-pix-217471 -> origin/feature/release-templates-notificacoes-pix-217471
+   6e26108..70102f2  main                   -> origin/main
+ * [new branch]      mv/rebase              -> origin/mv/rebase
+Enumerating objects: 727, done.
+Counting objects: 100% (727/727), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (360/360), done.
+Writing objects: 100% (727/727), done.
+Total 727 (delta 461), reused 618 (delta 362), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.Favorito
+Enumerating objects: 235, done.
+Counting objects: 100% (235/235), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (99/99), done.
+Writing objects: 100% (235/235), done.
+Total 235 (delta 135), reused 235 (delta 135), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.PixControleLimites
+remote: Azure Repos
+remote: Found 8 objects to send. (49 ms)
+Unpacking objects: 100% (8/8), 2.27 KiB | 11.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Migrations.PixControleLimites
+   861f957..5c34198  main       -> origin/main
+Enumerating objects: 86, done.
+Counting objects: 100% (86/86), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (64/64), done.
+Writing objects: 100% (86/86), done.
+Total 86 (delta 31), reused 65 (delta 16), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.PixIntencao
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (43/43), done.
+Total 43 (delta 11), reused 43 (delta 11), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.PixLiquidacoes
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Migrations.PixLiquidacoes
+ - [deleted]         (none)     -> origin/cafm/criacao-tabelas-consentimentos-283716
+remote: Azure Repos
+remote: Found 26 objects to send. (16 ms)
+Unpacking objects: 100% (26/26), 9.28 KiB | 19.00 KiB/s, done.
+   cc8c1cb..5017aaa  feature/gestao-consentimentos-281119 -> origin/feature/gestao-consentimentos-281119
+   cc8c1cb..befb9d8  main       -> origin/main
+Enumerating objects: 426, done.
+Counting objects: 100% (426/426), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (295/295), done.
+Writing objects: 100% (426/426), done.
+Total 426 (delta 216), reused 293 (delta 121), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Migrations.Transferencia
+remote: Azure Repos
+remote: Found 41 objects to send. (1 ms)
+Unpacking objects: 100% (41/41), 8.10 KiB | 7.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Migrations.Transferencia
+   fb5420e..c642ea4  main           -> origin/main
+ * [new branch]      feature/196442 -> origin/feature/196442
+ * [new branch]      feature/298035-cancelar-teimosinha -> origin/feature/298035-cancelar-teimosinha
+ * [new branch]      feature/298035-cancelar-teimosinha-rb -> origin/feature/298035-cancelar-teimosinha-rb
+ * [new branch]      gc/341371-ajuste-proc-SPR_OBTER_TRANSFERENCIA -> origin/gc/341371-ajuste-proc-SPR_OBTER_TRANSFERENCIA
+Enumerating objects: 773, done.
+Counting objects: 100% (773/773), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (469/469), done.
+Writing objects: 100% (773/773), done.
+Total 773 (delta 478), reused 518 (delta 296), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Authorization.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Authorization.Api
+ - [deleted]         (none)     -> origin/tst/acesso-simultaneo
+ - [deleted]         (none)     -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 175 objects to send. (3 ms)
+Receiving objects: 100% (175/175), 49.98 KiB | 6.25 MiB/s, done.
+Resolving deltas: 100% (113/113), completed with 16 local objects.
+   8b41b35..fe3872a  develop    -> origin/develop
+ * [new branch]      feature/registro-acesso-simultaneo -> origin/feature/registro-acesso-simultaneo
+Enumerating objects: 3453, done.
+Counting objects: 100% (3453/3453), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1696/1696), done.
+Writing objects: 100% (3453/3453), done.
+Total 3453 (delta 1926), reused 3174 (delta 1648), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning AutorizarTransacoes.Api
+remote: Azure Repos
+remote: Found 203 objects to send. (30 ms)
+Receiving objects: 100% (203/203), 56.39 KiB | 511.00 KiB/s, done.
+Resolving deltas: 100% (148/148), completed with 39 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.AutorizarTransacoes.Api
+   14467c9..5fe64ab  develop              -> origin/develop
+ * [new branch]      eog/344216_APROVACAO -> origin/eog/344216_APROVACAO
+ * [new branch]      gc/306486-novo-metodo-aprovacao -> origin/gc/306486-novo-metodo-aprovacao
+ * [new branch]      time-amarelo/319277-inclusao-horario-limite-e-status-de-expiracao-da-transacao -> origin/time-amarelo/319277-inclusao-horario-limite-e-status-de-expiracao-da-transacao
+Enumerating objects: 2658, done.
+Counting objects: 100% (2658/2658), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1348/1348), done.
+Writing objects: 100% (2658/2658), done.
+Total 2658 (delta 1828), reused 2007 (delta 1279), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Backoffice.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Backoffice.Api
+ - [deleted]         (none)                 -> origin/cafm/ajuste-api-config
+ - [deleted]         (none)                 -> origin/time-branco/refatora-controle-limites-us-120854
+remote: Azure Repos
+remote: Found 1041 objects to send. (18 ms)
+Receiving objects: 100% (1041/1041), 206.88 KiB | 901.00 KiB/s, done.
+Resolving deltas: 100% (629/629), completed with 101 local objects.
+   8cdd468..63d97c6  develop                -> origin/develop
+ * [new branch]      feature/179615-grupo-economico-empresa -> origin/feature/179615-grupo-economico-empresa
+ * [new branch]      feature/206864-novas-modalidades -> origin/feature/206864-novas-modalidades
+ * [new branch]      feature/254751-retirar-ced-fiduc -> origin/feature/254751-retirar-ced-fiduc
+ * [new branch]      feature/259584-ajustar-historico -> origin/feature/259584-ajustar-historico
+ * [new branch]      feature/286271-agro-pf -> origin/feature/286271-agro-pf
+ * [new branch]      feature/286271-agro-pf-rebase -> origin/feature/286271-agro-pf-rebase
+ * [new branch]      feature/289379-pagamentoIntegrado -> origin/feature/289379-pagamentoIntegrado
+ * [new branch]      feature/320333-quantidade-aprovadores -> origin/feature/320333-quantidade-aprovadores
+ * [new branch]      feature/322531-melhorias-sonar -> origin/feature/322531-melhorias-sonar
+ * [new branch]      feature/Adiciona_modalidade_permitidas -> origin/feature/Adiciona_modalidade_permitidas
+ * [new branch]      feature/ajustes-migracao-eks -> origin/feature/ajustes-migracao-eks
+ * [new branch]      feature/eks            -> origin/feature/eks
+ * [new branch]      jvsp/289379-pagamentoIntegrado -> origin/jvsp/289379-pagamentoIntegrado
+ * [new branch]      marcosmac/eks          -> origin/marcosmac/eks
+ * [new branch]      marcosmac/eks-2        -> origin/marcosmac/eks-2
+ * [new branch]      marcosmac/test         -> origin/marcosmac/test
+ * [new branch]      rav/ajustar-pr-coment  -> origin/rav/ajustar-pr-coment
+ * [new branch]      rav/ajuste-testes      -> origin/rav/ajuste-testes
+ * [new branch]      rav/correcao-null      -> origin/rav/correcao-null
+ * [new branch]      rav/merge-pagamento-integrado -> origin/rav/merge-pagamento-integrado
+ * [new branch]      ricardo/bug/267582     -> origin/ricardo/bug/267582
+ * [new branch]      ricardo/task/209703    -> origin/ricardo/task/209703
+ * [new branch]      ricardo/task/261367    -> origin/ricardo/task/261367
+ * [new branch]      ricardo/task/261405    -> origin/ricardo/task/261405
+ * [new branch]      ricardo/task/290773    -> origin/ricardo/task/290773
+ * [new branch]      sprint181223           -> origin/sprint181223
+ * [new branch]      story/206864-novas-modalidades -> origin/story/206864-novas-modalidades
+ * [new branch]      story/254751-retirar-ced-fiduc -> origin/story/254751-retirar-ced-fiduc
+ * [new branch]      story/259584-ajustar-historico -> origin/story/259584-ajustar-historico
+Enumerating objects: 3692, done.
+Counting objects: 100% (3692/3692), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1587/1587), done.
+Writing objects: 100% (3692/3692), done.
+Total 3692 (delta 2256), reused 3408 (delta 1980), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Backoffice.GestaoUsuarios.Api
+remote: Azure Repos
+remote: Found 454 objects to send. (22 ms)
+Receiving objects: 100% (454/454), 129.44 KiB | 3.50 MiB/s, done.
+Resolving deltas: 100% (274/274), completed with 44 local objects.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Backoffice.GestaoUsuarios.Api
+   49bf5d6..09dfb74  develop      -> origin/develop
+   4d86084..b72e68a  Israel/291147_Adiciona_ModalidadesContas -> origin/Israel/291147_Adiciona_ModalidadesContas
+ * [new branch]      Israel/316604_UsuariosContigencias -> origin/Israel/316604_UsuariosContigencias
+ * [new branch]      feature/314028-melhorias-sonar -> origin/feature/314028-melhorias-sonar
+ * [new branch]      feature/314441-melhorar-performance -> origin/feature/314441-melhorar-performance
+ * [new branch]      feature/314441-melhorar-performance-rb -> origin/feature/314441-melhorar-performance-rb
+ * [new branch]      feature/314441-melhorar-performance-rb2 -> origin/feature/314441-melhorar-performance-rb2
+ * [new branch]      feature/314441-melhorar-performance-rb3 -> origin/feature/314441-melhorar-performance-rb3
+ * [new branch]      feature/320017-quantidade-aprovadores -> origin/feature/320017-quantidade-aprovadores
+ * [new branch]      feature/320017-quantidade-aprovadores-descriptacao -> origin/feature/320017-quantidade-aprovadores-descriptacao
+ * [new branch]      feature/320017-quantidade-aprovadores-descriptacao-rb -> origin/feature/320017-quantidade-aprovadores-descriptacao-rb
+ * [new branch]      feature/320017-quantidade-aprovadores-rb -> origin/feature/320017-quantidade-aprovadores-rb
+ * [new branch]      feature/decriptacao-cpf-cnpj -> origin/feature/decriptacao-cpf-cnpj
+ * [new branch]      sprint100624 -> origin/sprint100624
+ * [new branch]      sprint270524 -> origin/sprint270524
+Enumerating objects: 2472, done.
+Counting objects: 100% (2472/2472), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1057/1057), done.
+Writing objects: 100% (2472/2472), done.
+Total 2472 (delta 1439), reused 2375 (delta 1342), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning BoletosCobranca.Api
+remote: Azure Repos
+remote: Found 25 objects to send. (143 ms)
+Unpacking objects: 100% (25/25), 4.84 KiB | 13.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.BoletosCobranca.Api
+   658b6c3..6b0cdcd  develop    -> origin/develop
+ * [new branch]      feature/306179-segunda-via-boleto-externo -> origin/feature/306179-segunda-via-boleto-externo
+Enumerating objects: 12658, done.
+Counting objects: 100% (12658/12658), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3127/3127), done.
+Writing objects: 100% (12658/12658), done.
+Total 12658 (delta 9218), reused 12609 (delta 9181), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Cobranca.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Cobranca.Api
+ - [deleted]         (none)                -> origin/nilsonk/francesinhaPerformance
+ - [deleted]         (none)                -> origin/pauloga/remover_tibco
+ - [deleted]         (none)                -> origin/pauloga/reporting
+ - [deleted]         (none)                -> origin/pauloga/titulos_duplicados
+ - [deleted]         (none)                -> origin/story/134475/ts/134867
+remote: Azure Repos
+remote: Found 159 objects to send. (138 ms)
+Receiving objects: 100% (159/159), 33.48 KiB | 3.35 MiB/s, done.
+Resolving deltas: 100% (93/93), completed with 27 local objects.
+   1717e00..c326bb0  develop               -> origin/develop
+ * [new branch]      IJ/194823_Permitir_envio_arquivo_Cobranca_XML -> origin/IJ/194823_Permitir_envio_arquivo_Cobranca_XML
+ * [new branch]      IsraelB/Atualiza_Azure-Pipeline -> origin/IsraelB/Atualiza_Azure-Pipeline
+ * [new branch]      IsraelB/Revert-Manual_Task-194823 -> origin/IsraelB/Revert-Manual_Task-194823
+ * [new branch]      IsraelB/Revert_Develop_Envio_xml -> origin/IsraelB/Revert_Develop_Envio_xml
+ * [new branch]      IsraelB/Revert_Merge_Branch_Correcao_Envio_Arquivos_XML -> origin/IsraelB/Revert_Merge_Branch_Correcao_Envio_Arquivos_XML
+ * [new branch]      IsraelB/Teste_ajuste_Pipiline -> origin/IsraelB/Teste_ajuste_Pipiline
+ * [new branch]      IsraelB/correcao_envio_arquivos_xml -> origin/IsraelB/correcao_envio_arquivos_xml
+ * [new branch]      afs/sonar-project-key -> origin/afs/sonar-project-key
+Enumerating objects: 5258, done.
+Counting objects: 100% (5258/5258), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1933/1933), done.
+Writing objects: 100% (5258/5258), done.
+Total 5258 (delta 3422), reused 4952 (delta 3148), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Comprovante.Api
+remote: Azure Repos
+remote: Found 317 objects to send. (32 ms)
+Receiving objects: 100% (317/317), 60.56 KiB | 1000.00 KiB/s, done.
+Resolving deltas: 100% (217/217), completed with 29 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Comprovante.Api
+   de106ec..10ea5fd  develop    -> origin/develop
+ + bc15a44...8f6e6c4 feature/281074-filtro-convenios -> origin/feature/281074-filtro-convenios  (forced update)
+ * [new branch]      feature/302414-filtro-beneficiario -> origin/feature/302414-filtro-beneficiario
+ * [new branch]      feature/304615-incluir-coluna-dt-callback -> origin/feature/304615-incluir-coluna-dt-callback
+ * [new branch]      gcv/ajuste-filtro-pix-pf -> origin/gcv/ajuste-filtro-pix-pf
+Enumerating objects: 5343, done.
+Counting objects: 100% (5343/5343), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2164/2164), done.
+Writing objects: 100% (5343/5343), done.
+Total 5343 (delta 3471), reused 4877 (delta 3074), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ConsultaTransacoes.Api
+remote: Azure Repos
+remote: Found 26 objects to send. (74 ms)
+Unpacking objects: 100% (26/26), 5.55 KiB | 7.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.ConsultaTransacoes.Api
+   d3a02df..14b4cfb  develop    -> origin/develop
+ * [new branch]      feature/336869-informacoes-chave-tela-aprovar-transacoes -> origin/feature/336869-informacoes-chave-tela-aprovar-transacoes
+ * [new branch]      feature/336869-informacoes-chave-tela-aprovar-transacoes-revert-from-develop -> origin/feature/336869-informacoes-chave-tela-aprovar-transacoes-revert-from-develop
+Enumerating objects: 7319, done.
+Counting objects: 100% (7319/7319), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3287/3287), done.
+Writing objects: 100% (7319/7319), done.
+Total 7319 (delta 4972), reused 5937 (delta 3820), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ControleLimites.Api
+remote: Azure Repos
+remote: Found 273 objects to send. (15 ms)
+Receiving objects: 100% (273/273), 74.60 KiB | 2.87 MiB/s, done.
+Resolving deltas: 100% (143/143), completed with 29 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.ControleLimites.Api
+   12b43da..c9c3438  develop    -> origin/develop
+ * [new branch]      feature/294499-migracao-dotnet-6 -> origin/feature/294499-migracao-dotnet-6
+ * [new branch]      psh/344878-Limite-Definitivo -> origin/psh/344878-Limite-Definitivo
+Enumerating objects: 1879, done.
+Counting objects: 100% (1879/1879), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (767/767), done.
+Writing objects: 100% (1879/1879), done.
+Total 1879 (delta 1175), reused 1753 (delta 1053), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning DebitoDiretoAutorizado.API
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.DebitoDiretoAutorizado.API
+ - [deleted]         (none)            -> origin/psh/201521-Validacao-Data-Hora
+ - [deleted]         (none)            -> origin/psh/201521-Validacao-Data-Hora-Merge-Dev
+ - [deleted]         (none)            -> origin/psh/Nao-Subir
+ - [deleted]         (none)            -> origin/psh/Novo-Filtro-DDA
+remote: Azure Repos
+remote: Found 165 objects to send. (16 ms)
+Receiving objects: 100% (165/165), 25.20 KiB | 2.52 MiB/s, done.
+Resolving deltas: 100% (123/123), completed with 43 local objects.
+   e988a54..37d2e88  develop           -> origin/develop
+ * [new branch]      eog/301043_ADICAO_LOGS_BUSCA_TITULOS_SELECAO -> origin/eog/301043_ADICAO_LOGS_BUSCA_TITULOS_SELECAO
+ * [new branch]      gc/312188-implementado-novo-download-varreduradda -> origin/gc/312188-implementado-novo-download-varreduradda
+ * [new branch]      psh/297251        -> origin/psh/297251
+ * [new branch]      psh/297251-Pagamento-Duplicado -> origin/psh/297251-Pagamento-Duplicado
+ * [new branch]      psh/324834-297251 -> origin/psh/324834-297251
+ * [new branch]      psh/341451        -> origin/psh/341451
+Enumerating objects: 8291, done.
+Counting objects: 100% (8291/8291), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3067/3067), done.
+Writing objects: 100% (8291/8291), done.
+Total 8291 (delta 5403), reused 7554 (delta 4688), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Favoritos.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Favoritos.Api
+ - [deleted]         (none)               -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 268 objects to send. (115 ms)
+Receiving objects: 100% (268/268), 44.22 KiB | 1.77 MiB/s, done.
+Resolving deltas: 100% (189/189), completed with 69 local objects.
+   f1c6953..538e616  develop              -> origin/develop
+ * [new branch]      eog/258338_TRANSFERENCIA_MESMA_CONTA -> origin/eog/258338_TRANSFERENCIA_MESMA_CONTA
+ * [new branch]      eog/281867_189581-pix-agendado -> origin/eog/281867_189581-pix-agendado
+ * [new branch]      eog/316098_CHAVE_NAO_ENCONTRADA -> origin/eog/316098_CHAVE_NAO_ENCONTRADA
+ * [new branch]      feature/270240-atualizar-rota-qrcodes-decodificação -> origin/feature/270240-atualizar-rota-qrcodes-decodificação
+ * [new branch]      feature/dt-249131-migracao-eks -> origin/feature/dt-249131-migracao-eks
+   d6a9088..5817677  feature/migracao-eks -> origin/feature/migracao-eks
+   8b57e52..f354ac3  grs/227002-filtro-favoritos -> origin/grs/227002-filtro-favoritos
+   976da4b..d307b13  hiagop/eks           -> origin/hiagop/eks
+ * [new branch]      sga/eks-migracao-completa -> origin/sga/eks-migracao-completa
+Enumerating objects: 3586, done.
+Counting objects: 100% (3586/3586), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1761/1761), done.
+Writing objects: 100% (3586/3586), done.
+Total 3586 (delta 2288), reused 3007 (delta 1731), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning GestaoToken.Api
+remote: Azure Repos
+remote: Found 1299 objects to send. (109 ms)
+Receiving objects: 100% (1299/1299), 538.57 KiB | 1.03 MiB/s, done.
+Resolving deltas: 100% (516/516), completed with 69 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.GestaoToken.Api
+   4f017b3..9d33361  develop                -> origin/develop
+ * [new branch]      afs/quality-gate       -> origin/afs/quality-gate
+ * [new branch]      feature/127289-validar-token -> origin/feature/127289-validar-token
+ * [new branch]      feature/127289-validar-token-2 -> origin/feature/127289-validar-token-2
+ * [new branch]      feature/156923-dados-usuario-token -> origin/feature/156923-dados-usuario-token
+ * [new branch]      feature/174395-ajuste-validar-token -> origin/feature/174395-ajuste-validar-token
+ * [new branch]      feature/174395-ajustes-validar-token -> origin/feature/174395-ajustes-validar-token
+ * [new branch]      feature/181609-retirar-retorno-rota -> origin/feature/181609-retirar-retorno-rota
+ * [new branch]      feature/183952-numero-serie -> origin/feature/183952-numero-serie
+ * [new branch]      feature/186660-log-corporativo -> origin/feature/186660-log-corporativo
+ * [new branch]      feature/186660-logs-corporativo -> origin/feature/186660-logs-corporativo
+ * [new branch]      feature/192461-token-desabilitado -> origin/feature/192461-token-desabilitado
+ * [new branch]      feature/206658-ajuste-yml -> origin/feature/206658-ajuste-yml
+ * [new branch]      feature/266095-migracao-eks -> origin/feature/266095-migracao-eks
+ * [new branch]      feature/remover-teste-integrado -> origin/feature/remover-teste-integrado
+ * [new branch]      feature/remover-testes-integrados -> origin/feature/remover-testes-integrados
+   99ad2be..5c9e8fc  marciogac/endpoint-inativacao-token(127430) -> origin/marciogac/endpoint-inativacao-token(127430)
+ * [new branch]      mypoc/green            -> origin/mypoc/green
+ * [new branch]      mypoc/yellow           -> origin/mypoc/yellow
+ * [new branch]      rg/bug/140176          -> origin/rg/bug/140176
+ * [new branch]      ricardo/bug/140176     -> origin/ricardo/bug/140176
+ * [new branch]      ricardo/bug/140176-rb  -> origin/ricardo/bug/140176-rb
+ * [new branch]      ricardo/bug/140176-rb2 -> origin/ricardo/bug/140176-rb2
+ * [new branch]      ricardo/bug/140176-rb3 -> origin/ricardo/bug/140176-rb3
+ * [new branch]      ricardo/bug/186302-spr -> origin/ricardo/bug/186302-spr
+ * [new branch]      ricardo/task/172753    -> origin/ricardo/task/172753
+ * [new branch]      ricardo/task/176503    -> origin/ricardo/task/176503
+ * [new branch]      ricardo/task/177986    -> origin/ricardo/task/177986
+ * [new branch]      ricardo/task/181615    -> origin/ricardo/task/181615
+ * [new branch]      ricardo/task/183746    -> origin/ricardo/task/183746
+ * [new branch]      ricardo/task/184656    -> origin/ricardo/task/184656
+ * [new branch]      ricardo/task/186302    -> origin/ricardo/task/186302
+ * [new branch]      ricardo/task/187713    -> origin/ricardo/task/187713
+ * [new branch]      ricardo/task/187713-rb -> origin/ricardo/task/187713-rb
+ * [new branch]      ricardo/task/193626    -> origin/ricardo/task/193626
+ * [new branch]      ricardo/task/199868    -> origin/ricardo/task/199868
+ * [new branch]      sprint05               -> origin/sprint05
+ * [new branch]      sprint05-rb-endpoint-inativacao-token-127430 -> origin/sprint05-rb-endpoint-inativacao-token-127430
+ * [new branch]      sprint13-2023          -> origin/sprint13-2023
+ * [new branch]      sprint9-2023           -> origin/sprint9-2023
+ * [new branch]      story/156923-dados-usuario-token -> origin/story/156923-dados-usuario-token
+ * [new branch]      story/174395-ajuste-validar-token -> origin/story/174395-ajuste-validar-token
+ * [new branch]      story/181609-retirar-retorno-rota -> origin/story/181609-retirar-retorno-rota
+ * [new branch]      story/183952-numero-serie -> origin/story/183952-numero-serie
+ * [new branch]      story/186660-log-corporativo -> origin/story/186660-log-corporativo
+ * [new branch]      story/192461-token-desabilitado -> origin/story/192461-token-desabilitado
+ * [new branch]      tst/historico-token-ibpj -> origin/tst/historico-token-ibpj
+ * [new branch]      valar/task/184093      -> origin/valar/task/184093
+Enumerating objects: 2472, done.
+Counting objects: 100% (2472/2472), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1374/1374), done.
+Writing objects: 100% (2472/2472), done.
+Total 2472 (delta 1256), reused 2236 (delta 1020), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning GestaoUsuarios.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.GestaoUsuarios.Api
+ - [deleted]         (none)                  -> origin/honorio/43220-bug-edicao-usuario
+ - [deleted]         (none)                  -> origin/honorio/verificacao-variavel-nulla
+ - [deleted]         (none)                  -> origin/psh/116615-Email-novo-usuario
+ - [deleted]         (none)                  -> origin/psh/75187-Logout-Usuario-Bloqueado
+ - [deleted]         (none)                  -> origin/psh/75187-Merge-Dev
+ - [deleted]         (none)                  -> origin/tst/vincular-usuario
+ - [deleted]         (none)                  -> origin/tst/vincular-usuario-ibpj
+remote: Azure Repos
+remote: Found 5805 objects to send. (300 ms)
+Receiving objects: 100% (5805/5805), 1.94 MiB | 2.60 MiB/s, done.
+Resolving deltas: 100% (3733/3733), completed with 118 local objects.
+   42e4e95..52dcee5    develop                 -> origin/develop
+ * [new branch]        IsraelJ/291481_BackOffice_Adiciona_Modalidades -> origin/IsraelJ/291481_BackOffice_Adiciona_Modalidades
+ * [new branch]        bugfix/247864-clientes-repetidos -> origin/bugfix/247864-clientes-repetidos
+ * [new branch]        eog/157043_LISTA_USUARIOS -> origin/eog/157043_LISTA_USUARIOS
+ * [new branch]        feature/120592-138467-132719-desassociacao-telefone-carta-senha -> origin/feature/120592-138467-132719-desassociacao-telefone-carta-senha
+ * [new branch]        feature/120592-desassociacao-empresas -> origin/feature/120592-desassociacao-empresas
+ * [new branch]        feature/121297-detalhamento-usuario-rb-develop -> origin/feature/121297-detalhamento-usuario-rb-develop
+ * [new branch]        feature/127737-busca-unificada-empresa-usuario -> origin/feature/127737-busca-unificada-empresa-usuario
+ * [new branch]        feature/129858-121297-detalhamento-associacao-logs -> origin/feature/129858-121297-detalhamento-associacao-logs
+ * [new branch]        feature/132719-carta-senha-edicao-usuario -> origin/feature/132719-carta-senha-edicao-usuario
+ * [new branch]        feature/132730-inativar-usuario -> origin/feature/132730-inativar-usuario
+ * [new branch]        feature/136809-api-config-interno -> origin/feature/136809-api-config-interno
+ * [new branch]        feature/138467-contato-gerente -> origin/feature/138467-contato-gerente
+ * [new branch]        feature/147051-motivo-bloqueio-desbloqueio -> origin/feature/147051-motivo-bloqueio-desbloqueio
+ * [new branch]        feature/147051-motivo-desbloqueio-bloqueio -> origin/feature/147051-motivo-desbloqueio-bloqueio
+ * [new branch]        feature/147993-contato-gerente -> origin/feature/147993-contato-gerente
+ * [new branch]        feature/147993-contatos-gerente -> origin/feature/147993-contatos-gerente
+ * [new branch]        feature/149026-fluxo-reenviar-carta-senha -> origin/feature/149026-fluxo-reenviar-carta-senha
+ * [new branch]        feature/149026-reenviar-carta-senha -> origin/feature/149026-reenviar-carta-senha
+ * [new branch]        feature/151175-ajustar-testes -> origin/feature/151175-ajustar-testes
+ * [new branch]        feature/156096-alterar-usuario-master -> origin/feature/156096-alterar-usuario-master
+ * [new branch]        feature/156228-ajuste-usuario-existe -> origin/feature/156228-ajuste-usuario-existe
+ * [new branch]        feature/156420-contingencia-officer -> origin/feature/156420-contingencia-officer
+ * [new branch]        feature/159592-fluxo-pessoa-fisica -> origin/feature/159592-fluxo-pessoa-fisica
+ * [new branch]        feature/159596-logs-authorization -> origin/feature/159596-logs-authorization
+ * [new branch]        feature/161261-bloquear-secundario -> origin/feature/161261-bloquear-secundario
+ * [new branch]        feature/163631-associacao -> origin/feature/163631-associacao
+ * [new branch]        feature/170830-desassociar-secundarios -> origin/feature/170830-desassociar-secundarios
+ * [new branch]        feature/171295-clientes-associados -> origin/feature/171295-clientes-associados
+ * [new branch]        feature/174431-inativar-usuario -> origin/feature/174431-inativar-usuario
+ * [new branch]        feature/176077-incluir-log-gerar-senha -> origin/feature/176077-incluir-log-gerar-senha
+ * [new branch]        feature/178859-gravar-dados-historico -> origin/feature/178859-gravar-dados-historico
+ * [new branch]        feature/179615-grupo-economico-empresa -> origin/feature/179615-grupo-economico-empresa
+ * [new branch]        feature/179774-atendimento-completo -> origin/feature/179774-atendimento-completo
+ * [new branch]        feature/181609-retirar-retorno-rota -> origin/feature/181609-retirar-retorno-rota
+ * [new branch]        feature/184698-regras-remover-contas -> origin/feature/184698-regras-remover-contas
+ * [new branch]        feature/186660-log-corporativo -> origin/feature/186660-log-corporativo
+ * [new branch]        feature/192203-cpf-duplicado-log -> origin/feature/192203-cpf-duplicado-log
+ * [new branch]        feature/193545-detalhar-excluidos -> origin/feature/193545-detalhar-excluidos
+ * [new branch]        feature/193689-nova-query-pesquisar -> origin/feature/193689-nova-query-pesquisar
+ * [new branch]        feature/198299-criar-usuarios -> origin/feature/198299-criar-usuarios
+ * [new branch]        feature/198299-masterpf -> origin/feature/198299-masterpf
+ * [new branch]        feature/198299-masterpf-pj -> origin/feature/198299-masterpf-pj
+ * [new branch]        feature/198299-permissoes-criar-usuarios -> origin/feature/198299-permissoes-criar-usuarios
+ * [new branch]        feature/198299-permissoes-pf-pj -> origin/feature/198299-permissoes-pf-pj
+ * [new branch]        feature/202412-performance-usuarios-clientes-associados -> origin/feature/202412-performance-usuarios-clientes-associados
+ * [new branch]        feature/206658-ajuste-yml -> origin/feature/206658-ajuste-yml
+ * [new branch]        feature/206862-paginar-contas -> origin/feature/206862-paginar-contas
+ * [new branch]        feature/215419-Correcao-Implementacao-Filas-API -> origin/feature/215419-Correcao-Implementacao-Filas-API
+ * [new branch]        feature/215419-FIX-Implementacao-Filas-API -> origin/feature/215419-FIX-Implementacao-Filas-API
+ * [new branch]        feature/215419-Implementacao-Filas-API -> origin/feature/215419-Implementacao-Filas-API
+ * [new branch]        feature/215419-exportacao-contato-salesforce -> origin/feature/215419-exportacao-contato-salesforce
+ * [new branch]        feature/215419-exportacao-usuarios-salesforce-fila -> origin/feature/215419-exportacao-usuarios-salesforce-fila
+ * [new branch]        feature/215419-final-correcao-nome-sqs-appsettings -> origin/feature/215419-final-correcao-nome-sqs-appsettings
+ * [new branch]        feature/239753-inativar-masterpj-aut -> origin/feature/239753-inativar-masterpj-aut
+ * [new branch]        feature/247864-clientes-repetidos -> origin/feature/247864-clientes-repetidos
+ * [new branch]        feature/254751-retirar-ced-fiduc -> origin/feature/254751-retirar-ced-fiduc
+ * [new branch]        feature/258015-atualizar-azman -> origin/feature/258015-atualizar-azman
+ * [new branch]        feature/258015-update-azman -> origin/feature/258015-update-azman
+ * [new branch]        feature/258015-update-perfil-azman -> origin/feature/258015-update-perfil-azman
+ * [new branch]        feature/311484-remover-codigo-backoffice -> origin/feature/311484-remover-codigo-backoffice
+ * [new branch]        feature/311484-remover-codigo-backoffice-rb -> origin/feature/311484-remover-codigo-backoffice-rb
+ * [new branch]        feature/add-version-pipeline -> origin/feature/add-version-pipeline
+ * [new branch]        feature/add-version-pipeline-net -> origin/feature/add-version-pipeline-net
+ * [new branch]        feature/azul-backoffice -> origin/feature/azul-backoffice
+ * [new branch]        feature/consulta_usuario_solicitante -> origin/feature/consulta_usuario_solicitante
+ * [new branch]        feature/consulta_usuario_solicitante-revert-develop -> origin/feature/consulta_usuario_solicitante-revert-develop
+ * [new branch]        feature/consulta_usuario_solicitante-revert-from-develop -> origin/feature/consulta_usuario_solicitante-revert-from-develop
+ * [new branch]        feature/decriptacao-cpf-cnpj -> origin/feature/decriptacao-cpf-cnpj
+ * [new branch]        feature/detalhamento-e-log-e-historico-usuario -> origin/feature/detalhamento-e-log-e-historico-usuario
+ * [new branch]        feature/nome-operador   -> origin/feature/nome-operador
+ * [new branch]        feature/parametrizacao-cliente -> origin/feature/parametrizacao-cliente
+ * [new branch]        feature/remover-teste-integrado -> origin/feature/remover-teste-integrado
+ * [new branch]        feature/remover-testes-integrados -> origin/feature/remover-testes-integrados
+ * [new branch]        feature/srb             -> origin/feature/srb
+ * [new branch]        feature/tratamento-grupo-economico -> origin/feature/tratamento-grupo-economico
+ * [new branch]        feature/validar-cpf     -> origin/feature/validar-cpf
+ * [new branch]        feature/validar-cpf-disponivel -> origin/feature/validar-cpf-disponivel
+ * [new branch]        gc/348178-ajuste-config-qtdaprovadores -> origin/gc/348178-ajuste-config-qtdaprovadores
+ * [new branch]        gcv/policy-captcha      -> origin/gcv/policy-captcha
+ * [new branch]        grs/220607-correcao-bloqueio-usuario -> origin/grs/220607-correcao-bloqueio-usuario
+ * [new branch]        grs/231418-atualizar-endpoints -> origin/grs/231418-atualizar-endpoints
+ * [new branch]        grs/320362-erro-email-primeiro-acesso -> origin/grs/320362-erro-email-primeiro-acesso
+ * [new branch]        hotfix/descriptacao     -> origin/hotfix/descriptacao
+ * [new branch]        hotfix/sprint05/134966  -> origin/hotfix/sprint05/134966
+ * [new branch]        hotfix/task/158647      -> origin/hotfix/task/158647
+ * [new branch]        italo/task/276190-criar-rota-lista-usuarios-cliente -> origin/italo/task/276190-criar-rota-lista-usuarios-cliente
+ * [new branch]        leo/task/203598/paginacao-grupo-economico -> origin/leo/task/203598/paginacao-grupo-economico
+ * [new branch]        leo/task/246606         -> origin/leo/task/246606
+ * [new branch]        ms/add-log              -> origin/ms/add-log
+ * [new branch]        mypoc/green             -> origin/mypoc/green
+ * [new branch]        mypoc/yellow            -> origin/mypoc/yellow
+ * [new branch]        prj/solicitantes        -> origin/prj/solicitantes
+ * [new branch]        psh/Novo-Email          -> origin/psh/Novo-Email
+ * [new branch]        rav/154567              -> origin/rav/154567
+ * [new branch]        rav/158548-inativar-usuario -> origin/rav/158548-inativar-usuario
+ * [new branch]        rav/193690-nova-query   -> origin/rav/193690-nova-query
+ * [new branch]        rav/237180              -> origin/rav/237180
+ * [new branch]        rav/265173-atualizar-azman -> origin/rav/265173-atualizar-azman
+ * [new branch]        rav/rangers-apim        -> origin/rav/rangers-apim
+ * [new branch]        rav/sprint05-rb         -> origin/rav/sprint05-rb
+ * [new branch]        ric-leo/bug-teste       -> origin/ric-leo/bug-teste
+ * [new branch]        ric-teste-hml           -> origin/ric-teste-hml
+ * [new branch]        ricardo/bug/137663      -> origin/ricardo/bug/137663
+ * [new branch]        ricardo/bug/138305      -> origin/ricardo/bug/138305
+ * [new branch]        ricardo/bug/143746      -> origin/ricardo/bug/143746
+ * [new branch]        ricardo/bug/145811      -> origin/ricardo/bug/145811
+ * [new branch]        ricardo/bug/167683      -> origin/ricardo/bug/167683
+ * [new branch]        ricardo/bug/167816      -> origin/ricardo/bug/167816
+ * [new branch]        ricardo/bug/169712      -> origin/ricardo/bug/169712
+ * [new branch]        ricardo/bug/183890      -> origin/ricardo/bug/183890
+ * [new branch]        ricardo/bug/200514      -> origin/ricardo/bug/200514
+ * [new branch]        ricardo/task/128998     -> origin/ricardo/task/128998
+ * [new branch]        ricardo/task/136067     -> origin/ricardo/task/136067
+ * [new branch]        ricardo/task/137521     -> origin/ricardo/task/137521
+ * [new branch]        ricardo/task/137521-rb  -> origin/ricardo/task/137521-rb
+ * [new branch]        ricardo/task/142962     -> origin/ricardo/task/142962
+ * [new branch]        ricardo/task/148872     -> origin/ricardo/task/148872
+ * [new branch]        ricardo/task/149261     -> origin/ricardo/task/149261
+ * [new branch]        ricardo/task/156229     -> origin/ricardo/task/156229
+ * [new branch]        ricardo/task/158634     -> origin/ricardo/task/158634
+ * [new branch]        ricardo/task/158638     -> origin/ricardo/task/158638
+ * [new branch]        ricardo/task/158647     -> origin/ricardo/task/158647
+ * [new branch]        ricardo/task/158660     -> origin/ricardo/task/158660
+ * [new branch]        ricardo/task/159582     -> origin/ricardo/task/159582
+ * [new branch]        ricardo/task/160491     -> origin/ricardo/task/160491
+ * [new branch]        ricardo/task/161964     -> origin/ricardo/task/161964
+ * [new branch]        ricardo/task/163783     -> origin/ricardo/task/163783
+ * [new branch]        ricardo/task/164769     -> origin/ricardo/task/164769
+ * [new branch]        ricardo/task/165143     -> origin/ricardo/task/165143
+ * [new branch]        ricardo/task/166014     -> origin/ricardo/task/166014
+ * [new branch]        ricardo/task/166017     -> origin/ricardo/task/166017
+ * [new branch]        ricardo/task/172727     -> origin/ricardo/task/172727
+ * [new branch]        ricardo/task/173990     -> origin/ricardo/task/173990
+ * [new branch]        ricardo/task/176540     -> origin/ricardo/task/176540
+ * [new branch]        ricardo/task/180516     -> origin/ricardo/task/180516
+ * [new branch]        ricardo/task/181615     -> origin/ricardo/task/181615
+ * [new branch]        ricardo/task/185568     -> origin/ricardo/task/185568
+ * [new branch]        ricardo/task/187708     -> origin/ricardo/task/187708
+ * [new branch]        ricardo/task/193632     -> origin/ricardo/task/193632
+ * [new branch]        ricardo/task/193637     -> origin/ricardo/task/193637
+ * [new branch]        ricardo/task/193690-rb  -> origin/ricardo/task/193690-rb
+ * [new branch]        ricardo/task/193690-rb2 -> origin/ricardo/task/193690-rb2
+ * [new branch]        ricardo/task/198197     -> origin/ricardo/task/198197
+ * [new branch]        ricardo/task/199871     -> origin/ricardo/task/199871
+ * [new branch]        ricardo/task/202844     -> origin/ricardo/task/202844
+ * [new branch]        ricardo/task/209724     -> origin/ricardo/task/209724
+ * [new branch]        ricardo/task/209796     -> origin/ricardo/task/209796
+ * [new branch]        ricardo/task/215958     -> origin/ricardo/task/215958
+ * [new branch]        ricardo/task/226258     -> origin/ricardo/task/226258
+ * [new branch]        ricardo/task/227730     -> origin/ricardo/task/227730
+ * [new branch]        ricardo/task/261405     -> origin/ricardo/task/261405
+ * [new branch]        sprint04-05-rb2         -> origin/sprint04-05-rb2
+ * [new branch]        sprint05                -> origin/sprint05
+ * [new branch]        sprint05-azul-backoffice -> origin/sprint05-azul-backoffice
+ * [new branch]        sprint05-azul-backoffice2 -> origin/sprint05-azul-backoffice2
+ * [new branch]        sprint05-backoffice     -> origin/sprint05-backoffice
+ * [new branch]        sprint05-backoffice2    -> origin/sprint05-backoffice2
+ * [new branch]        sprint05-bkp            -> origin/sprint05-bkp
+ * [new branch]        sprint05-bkp2           -> origin/sprint05-bkp2
+ * [new branch]        sprint05-rb             -> origin/sprint05-rb
+ * [new branch]        sprint09                -> origin/sprint09
+ * [new branch]        sprint11                -> origin/sprint11
+ * [new branch]        sprint12-2023           -> origin/sprint12-2023
+ * [new branch]        sprint12-erro           -> origin/sprint12-erro
+ * [new branch]        sprint13-2023           -> origin/sprint13-2023
+ * [new branch]        sprint14-2023           -> origin/sprint14-2023
+ * [new branch]        sprint18-2023           -> origin/sprint18-2023
+ * [new branch]        sprint4-2023            -> origin/sprint4-2023
+ * [new branch]        sprint5/120592          -> origin/sprint5/120592
+   42e4e95..cfbf68e    sprint5/125502          -> origin/sprint5/125502
+ * [new branch]        sprint5/129858          -> origin/sprint5/129858
+ * [new branch]        sprint5/st/120592/task/128992 -> origin/sprint5/st/120592/task/128992
+ + 40dde6b...0a8598e   sprint5/st/125502/128808 -> origin/sprint5/st/125502/128808  (forced update)
+ * [new branch]        sprint5/st/125502/task/128852 -> origin/sprint5/st/125502/task/128852
+ * [new branch]        sprint6-2023            -> origin/sprint6-2023
+ * [new branch]        sprint9-2023            -> origin/sprint9-2023
+ * [new branch]        srb/215419-FIX-Implementacao-Filas-API -> origin/srb/215419-FIX-Implementacao-Filas-API
+ * [new branch]        srb/215419-correcao-nome-sqs-appsettings -> origin/srb/215419-correcao-nome-sqs-appsettings
+ * [new branch]        srb/ultima-branch-20240405 -> origin/srb/ultima-branch-20240405
+ * [new branch]        srsb/local-310443-alterar-leitura-msg-fila-qs -> origin/srsb/local-310443-alterar-leitura-msg-fila-qs
+ * [new branch]        story/132730-inativar-usuario -> origin/story/132730-inativar-usuario
+ * [new branch]        story/147051-motivo-bloqueio-desbloqueio -> origin/story/147051-motivo-bloqueio-desbloqueio
+ * [new branch]        story/147993-contato-gerente -> origin/story/147993-contato-gerente
+ * [new branch]        story/147993-contato-gerentes -> origin/story/147993-contato-gerentes
+ * [new branch]        story/149026-reenviar-carta-senha -> origin/story/149026-reenviar-carta-senha
+ * [new branch]        story/156096-alterar-usuario-master -> origin/story/156096-alterar-usuario-master
+ * [new branch]        story/156228-ajuste-usuario-existente -> origin/story/156228-ajuste-usuario-existente
+ * [new branch]        story/156228-correcao-usuario-existente -> origin/story/156228-correcao-usuario-existente
+ * [new branch]        story/156420-contingencia-officer -> origin/story/156420-contingencia-officer
+ * [new branch]        story/159592-fluxo-pessoa-fisica -> origin/story/159592-fluxo-pessoa-fisica
+ * [new branch]        story/159596-logs-authorization -> origin/story/159596-logs-authorization
+ * [new branch]        story/161261-bloquear-secundario -> origin/story/161261-bloquear-secundario
+ * [new branch]        story/163631-associacao -> origin/story/163631-associacao
+ * [new branch]        story/170830-desassociar-secundarios -> origin/story/170830-desassociar-secundarios
+ * [new branch]        story/171295-clientes-associados -> origin/story/171295-clientes-associados
+ * [new branch]        story/174431-inativar-usuario -> origin/story/174431-inativar-usuario
+ * [new branch]        story/176001-incluir-logs -> origin/story/176001-incluir-logs
+ * [new branch]        story/176077-incluir-log-gerar-senha -> origin/story/176077-incluir-log-gerar-senha
+ * [new branch]        story/178859-gravar-dados-historico -> origin/story/178859-gravar-dados-historico
+ * [new branch]        story/179615-grupo-economico-empresa -> origin/story/179615-grupo-economico-empresa
+ * [new branch]        story/181609-retirar-retorno-rota -> origin/story/181609-retirar-retorno-rota
+ * [new branch]        story/184698-regras-remover-contas -> origin/story/184698-regras-remover-contas
+ * [new branch]        story/186660-log-corporativo -> origin/story/186660-log-corporativo
+ * [new branch]        story/192203-cpf-duplicado-log -> origin/story/192203-cpf-duplicado-log
+ * [new branch]        story/193545-detalhar-excluidos -> origin/story/193545-detalhar-excluidos
+ * [new branch]        story/193689-nova-query-pesquisar -> origin/story/193689-nova-query-pesquisar
+ * [new branch]        story/198299-criar-usuarios -> origin/story/198299-criar-usuarios
+ * [new branch]        story/198299-masterpf   -> origin/story/198299-masterpf
+ * [new branch]        story/202412-performance-usuarios-clientes-associados -> origin/story/202412-performance-usuarios-clientes-associados
+ * [new branch]        story/206862-paginar-contas -> origin/story/206862-paginar-contas
+ * [new branch]        story/237178-criar-validacao-carta-senha -> origin/story/237178-criar-validacao-carta-senha
+ * [new branch]        story/239753-inativar-masterpj-aut -> origin/story/239753-inativar-masterpj-aut
+ * [new branch]        story/254751-retirar-ced-fiduc -> origin/story/254751-retirar-ced-fiduc
+ * [new branch]        story/258015-atualizar-azman -> origin/story/258015-atualizar-azman
+ * [new branch]        story/259580-alterar-rota-pesquisa-usuario -> origin/story/259580-alterar-rota-pesquisa-usuario
+ * [new branch]        tst/correcao-editar-master-backoffice -> origin/tst/correcao-editar-master-backoffice
+ * [new branch]        tst/documentacao-docfx  -> origin/tst/documentacao-docfx
+ * [new branch]        tst/validar-dados-editar-usuario -> origin/tst/validar-dados-editar-usuario
+ * [new branch]        tst/validar-grupo-economico -> origin/tst/validar-grupo-economico
+ * [new branch]        valar/146051/task/149251 -> origin/valar/146051/task/149251
+ * [new branch]        valar/task/134460       -> origin/valar/task/134460
+ * [new branch]        valar/task/158548/inativar-usuario -> origin/valar/task/158548/inativar-usuario
+ * [new branch]        valar/task/165137       -> origin/valar/task/165137
+ * [new branch]        valar/task/172738       -> origin/valar/task/172738
+ * [new branch]        valar/task/176516       -> origin/valar/task/176516
+ * [new branch]        valar/task/180499       -> origin/valar/task/180499
+ * [new branch]        wms/193396-reCaptcha    -> origin/wms/193396-reCaptcha
+Enumerating objects: 10973, done.
+Counting objects: 100% (10973/10973), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4039/4039), done.
+Writing objects: 100% (10973/10973), done.
+Total 10973 (delta 7612), reused 10177 (delta 6822), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning OpenFinance.Api
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.OpenFinance.Api
+ - [deleted]         (none)     -> origin/cafm/testes-central-notificacao
+remote: Azure Repos
+remote: Found 7 objects to send. (9 ms)
+Unpacking objects: 100% (7/7), 1.26 KiB | 5.00 KiB/s, done.
+   b4afe48..f872266  feature/implementar-central-notificacao-311056 -> origin/feature/implementar-central-notificacao-311056
+   9f40a35..2a7b656  develop    -> origin/develop
+Enumerating objects: 966, done.
+Counting objects: 100% (966/966), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (783/783), done.
+Writing objects: 100% (966/966), done.
+Total 966 (delta 451), reused 486 (delta 149), pack-reused 0 (from 0)
+Removing duplicate objects: 100% (256/256), done.
+########################################
+
+########################################
+Fetching and cleaning Payments.Api
+remote: Azure Repos
+remote: Found 29 objects to send. (96 ms)
+Unpacking objects: 100% (29/29), 4.46 KiB | 7.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Payments.Api
+   de9650c..68e732a  develop    -> origin/develop
+   31a2848..ec58efd  gc/330649-ajuste-validacao-titulos-vlzarado -> origin/gc/330649-ajuste-validacao-titulos-vlzarado
+ * [new branch]      gc/350778-ajuste-processo-idempotencia -> origin/gc/350778-ajuste-processo-idempotencia
+Enumerating objects: 8739, done.
+Counting objects: 100% (8739/8739), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2964/2964), done.
+Writing objects: 100% (8739/8739), done.
+Total 8739 (delta 6101), reused 8183 (delta 5588), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Chaves.Api
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Chaves.Api
+ - [deleted]         (none)     -> origin/cafm/testes-unidade-aprovacao-portabilidade-347422
+remote: Azure Repos
+remote: Found 19 objects to send. (6 ms)
+Unpacking objects: 100% (19/19), 10.08 KiB | 16.00 KiB/s, done.
+   4051141..906a138  feature/branco-doacao-portabilidade-reivindicacao -> origin/feature/branco-doacao-portabilidade-reivindicacao
+Enumerating objects: 3645, done.
+Counting objects: 100% (3645/3645), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1874/1874), done.
+Writing objects: 100% (3645/3645), done.
+Total 3645 (delta 2260), reused 2880 (delta 1628), pack-reused 0 (from 0)
+########################################
+########################################
+Fetching and cleaning Pix.Consentimento.Api
+remote: Azure Repos
+remote: Found 10 objects to send. (61 ms)
+Unpacking objects: 100% (10/10), 1.27 KiB | 3.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Consentimento.Api
+   a7a7ab0..6a7bd42  feature/311147-311069-311125-308408-release -> origin/feature/311147-311069-311125-308408-release
+   34461bc..e235c35  develop    -> origin/develop
+Enumerating objects: 6284, done.
+Counting objects: 100% (6284/6284), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2415/2415), done.
+Writing objects: 100% (6284/6284), done.
+Total 6284 (delta 4557), reused 5328 (delta 3795), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Contestacao.Api
+Enumerating objects: 1104, done.
+Counting objects: 100% (1104/1104), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (802/802), done.
+Writing objects: 100% (1104/1104), done.
+Total 1104 (delta 576), reused 567 (delta 252), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.ControleLimites.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.ControleLimites.Api
+ - [deleted]         (none)     -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 16 objects to send. (100 ms)
+Unpacking objects: 100% (16/16), 5.05 KiB | 12.00 KiB/s, done.
+   6885349..f086ed4  develop    -> origin/develop
+Enumerating objects: 3732, done.
+Counting objects: 100% (3732/3732), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1769/1769), done.
+Writing objects: 100% (3732/3732), done.
+Total 3732 (delta 2119), reused 3418 (delta 1829), pack-reused 0 (from 0)
+Enumerating cruft objects: 10, done.
+Traversing cruft objects: 30, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), done.
+Total 10 (delta 1), reused 1 (delta 0), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.CopiaCola.Api
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.CopiaCola.Api
+ - [deleted]         (none)     -> origin/cafm/opcoes-serializacao
+remote: Azure Repos
+remote: Found 25 objects to send. (3 ms)
+Unpacking objects: 100% (25/25), 6.27 KiB | 12.00 KiB/s, done.
+   e3d3937..a6aa71a  bugfix/189581-pix-agendado -> origin/bugfix/189581-pix-agendado
+   7a79ded..f33ae80  develop    -> origin/develop
+ * [new branch]      eog/328778_QRCODE_ESTATICO_ZERADO -> origin/eog/328778_QRCODE_ESTATICO_ZERADO
+Enumerating objects: 935, done.
+Counting objects: 100% (935/935), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (541/541), done.
+Writing objects: 100% (935/935), done.
+Total 935 (delta 467), reused 791 (delta 360), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Devolucao.Api
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Devolucao.Api
+ - [deleted]         (none)     -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 59 objects to send. (5 ms)
+Unpacking objects: 100% (59/59), 9.25 KiB | 9.00 KiB/s, done.
+   4fc4c73..1620c66  develop    -> origin/develop
+ * [new branch]      249239_ComprovanteDevolucaoPix -> origin/249239_ComprovanteDevolucaoPix
+ * [new branch]      bugfix/327795-lista_historico_pix -> origin/bugfix/327795-lista_historico_pix
+ * [new branch]      feature/289222-migracao-dotnet-6 -> origin/feature/289222-migracao-dotnet-6
+Enumerating objects: 1105, done.
+Counting objects: 100% (1105/1105), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (550/550), done.
+Writing objects: 100% (1105/1105), done.
+Total 1105 (delta 568), reused 1016 (delta 505), pack-reused 0 (from 0)
+Enumerating cruft objects: 4, done.
+Traversing cruft objects: 9, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Historico.Api
+remote: Azure Repos
+remote: Found 78 objects to send. (8 ms)
+Unpacking objects: 100% (78/78), 11.00 KiB | 5.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Historico.Api
+ * [new branch]      bugfix/290197-lista_historico_pix -> origin/bugfix/290197-lista_historico_pix
+   6c7bb43..c270efc  develop    -> origin/develop
+Enumerating objects: 2635, done.
+Counting objects: 100% (2635/2635), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1853/1853), done.
+Writing objects: 100% (2635/2635), done.
+Total 2635 (delta 1656), reused 1316 (delta 733), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Intencao.Api
+Enumerating objects: 4868, done.
+Counting objects: 100% (4868/4868), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1359/1359), done.
+Writing objects: 100% (4868/4868), done.
+Total 4868 (delta 3683), reused 4507 (delta 3411), pack-reused 0 (from 0)
+Removing duplicate objects: 100% (256/256), done.
+########################################
+
+########################################
+Fetching and cleaning Pix.Liquidacoes.Api
+remote: Azure Repos
+remote: Found 24 objects to send. (285 ms)
+Unpacking objects: 100% (24/24), 8.71 KiB | 73.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Liquidacoes.Api
+   fb5f7c7..00b19da  develop    -> origin/develop
+Enumerating objects: 10697, done.
+Counting objects: 100% (10697/10697), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3611/3611), done.
+Writing objects: 100% (10697/10697), done.
+Total 10697 (delta 7401), reused 9917 (delta 6756), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.PrePix.Api
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.PrePix.Api
+ - [deleted]         (none)     -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 61 objects to send. (45 ms)
+Unpacking objects: 100% (61/61), 18.01 KiB | 16.00 KiB/s, done.
+   b573390..359239a  develop    -> origin/develop
+ * [new branch]      feature/limite_deslogado_open_pix -> origin/feature/limite_deslogado_open_pix
+Enumerating objects: 796, done.
+Counting objects: 100% (796/796), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (504/504), done.
+Writing objects: 100% (796/796), done.
+Total 796 (delta 320), reused 712 (delta 259), pack-reused 0 (from 0)
+Enumerating cruft objects: 6, done.
+Traversing cruft objects: 11, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), done.
+Total 6 (delta 1), reused 3 (delta 1), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning TransacoesAgendadas.Api
+remote: Azure Repos
+remote: Found 32 objects to send. (6 ms)
+Unpacking objects: 100% (32/32), 5.32 KiB | 6.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.TransacoesAgendadas.Api
+   a769f8e..d93b26e  develop    -> origin/develop
+ * [new branch]      feature/306422-revert-develop -> origin/feature/306422-revert-develop
+ * [new branch]      feature/detalhes-pagamento-cancelado -> origin/feature/detalhes-pagamento-cancelado
+Enumerating objects: 2903, done.
+Counting objects: 100% (2903/2903), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1359/1359), done.
+Writing objects: 100% (2903/2903), done.
+Total 2903 (delta 1986), reused 2355 (delta 1480), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning TransactionManager.Api
+remote: Azure Repos
+remote: Found 195 objects to send. (85 ms)
+Receiving objects: 100% (195/195), 37.87 KiB | 355.00 KiB/s, done.
+Resolving deltas: 100% (151/151), completed with 42 local objects.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.TransactionManager.Api
+   8e457d8..559390c  develop                 -> origin/develop
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+   de7623d..38dd9d4  gc/336356-implementacao-devolucao-boleto -> origin/gc/336356-implementacao-devolucao-boleto
+ * [new branch]      gc/342698-idempotencia-rejeitados -> origin/gc/342698-idempotencia-rejeitados
+ * [new branch]      gc/347730-ajuste-falhas -> origin/gc/347730-ajuste-falhas
+Enumerating objects: 11949, done.
+Counting objects: 100% (11949/11949), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5196/5196), done.
+Writing objects: 100% (11949/11949), done.
+Total 11949 (delta 8240), reused 10153 (delta 6567), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Transferencias.Api
+remote: Azure Repos
+remote: Found 22 objects to send. (13 ms)
+Unpacking objects: 100% (22/22), 12.55 KiB | 15.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Transferencias.Api
+   78ca6c1..dae72e8  feature/release-300488-melhorias-validacoes-modalidade -> origin/feature/release-300488-melhorias-validacoes-modalidade
+   fcbc2b8..cb060d7  develop               -> origin/develop
+ * [new branch]      gcv/ajustes-conflitos -> origin/gcv/ajustes-conflitos
+ * [new branch]      sergiosi/atualiza_certificado -> origin/sergiosi/atualiza_certificado
+Enumerating objects: 8140, done.
+Counting objects: 100% (8140/8140), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3880/3880), done.
+Writing objects: 100% (8140/8140), done.
+Total 8140 (delta 5860), reused 6117 (delta 4173), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning TransmissaoArquivos.Api
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.TransmissaoArquivos.Api
+ - [deleted]         (none)              -> origin/wms/225078-ajuste-proxy
+remote: Azure Repos
+remote: Found 604 objects to send. (18 ms)
+Receiving objects: 100% (604/604), 152.54 KiB | 1.09 MiB/s, done.
+Resolving deltas: 100% (389/389), completed with 47 local objects.
+   80e535e..3995e57  develop             -> origin/develop
+   8df2d12..797b82f  feature/241998-novo-fluxo-transmissao-arquivos -> origin/feature/241998-novo-fluxo-transmissao-arquivos
+ * [new branch]      feature/275789-retirar-trava-validacao-estrutural -> origin/feature/275789-retirar-trava-validacao-estrutural
+ * [new branch]      feature/283900-incluir-download-remessa -> origin/feature/283900-incluir-download-remessa
+ * [new branch]      feature/286721-ajuste-data-consulta-status-processamento -> origin/feature/286721-ajuste-data-consulta-status-processamento
+ * [new branch]      feature/286928-286721-dotnet-6-e-ajuste-data-consulta-status -> origin/feature/286928-286721-dotnet-6-e-ajuste-data-consulta-status
+ * [new branch]      feature/286928-migracao-dotnet-6 -> origin/feature/286928-migracao-dotnet-6
+ * [new branch]      feature/293598-validador-arquivo -> origin/feature/293598-validador-arquivo
+ * [new branch]      feature/346886-endpoint-arquivo-xlsx-convertido -> origin/feature/346886-endpoint-arquivo-xlsx-convertido
+ * [new branch]      feature/migracao-ems-para-sqs -> origin/feature/migracao-ems-para-sqs
+ * [new branch]      feature/test-rebase -> origin/feature/test-rebase
+ * [new branch]      gcv/293598-relase   -> origin/gcv/293598-relase
+ * [new branch]      gcv/rebase          -> origin/gcv/rebase
+ * [new branch]      gcv/test-rebase-ii  -> origin/gcv/test-rebase-ii
+ * [new branch]      gcv/test-rebase-iii -> origin/gcv/test-rebase-iii
+ * [new branch]      psh/331432          -> origin/psh/331432
+Enumerating objects: 6267, done.
+Counting objects: 100% (6267/6267), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2481/2481), done.
+Writing objects: 100% (6267/6267), done.
+Total 6267 (delta 4137), reused 5727 (delta 3636), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.Core.Comprovante.Api
+remote: TF401019: The Git repository with name or identifier ABCBrasil.Core.Comprovante.Api does not exist or you do not have permissions for the operation you are attempting.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Enumerating objects: 1483, done.
+Counting objects: 100% (1483/1483), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (723/723), done.
+Writing objects: 100% (1483/1483), done.
+Total 1483 (delta 722), reused 1483 (delta 722), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.Core.DbConnect.Api
+remote: TF401019: The Git repository with name or identifier ABCBrasil.Core.DbConnect.Api does not exist or you do not have permissions for the operation you are attempting.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Enumerating objects: 375, done.
+Counting objects: 100% (375/375), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (204/204), done.
+Writing objects: 100% (375/375), done.
+Total 375 (delta 167), reused 375 (delta 167), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Core.DataScience.Dsl.Lib
+remote: TF401019: The Git repository with name or identifier ABCBrasil.Core.DataScience.Dsl.Lib does not exist or you do not have permissions for the operation you are attempting.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (30/30), done.
+Total 30 (delta 8), reused 30 (delta 8), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Core.Dsl.Lib
+remote: Azure Repos
+remote: Found 10 objects to send. (83 ms)
+Unpacking objects: 100% (10/10), 1.42 KiB | 5.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Core.Dsl.Lib
+   0fdc763..e562d98  develop    -> origin/develop
+Enumerating objects: 568, done.
+Counting objects: 100% (568/568), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (285/285), done.
+Writing objects: 100% (568/568), done.
+Total 568 (delta 294), reused 538 (delta 269), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Arquivos.Dsl.Lib
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Arquivos.Dsl.Lib
+ - [deleted]         (none)                -> origin/psh/Valida-Banco-Credito
+ - [deleted]         (none)                -> origin/rc/remocao-validacao-250k
+remote: Azure Repos
+remote: Found 306 objects to send. (51 ms)
+Receiving objects: 100% (306/306), 48.88 KiB | 3.26 MiB/s, done.
+Resolving deltas: 100% (137/137), completed with 19 local objects.
+   8fa1efe..bae1903  develop               -> origin/develop
+ * [new branch]      Arquitetura           -> origin/Arquitetura
+ * [new branch]      feature/quality-gate  -> origin/feature/quality-gate
+ * [new branch]      gc/243754-ajuste-regra-contacredito -> origin/gc/243754-ajuste-regra-contacredito
+ * [new branch]      gc/309743-nova-validacao-agencia-zerada -> origin/gc/309743-nova-validacao-agencia-zerada
+ * [new branch]      leo/task/261401       -> origin/leo/task/261401
+ * [new branch]      prj/220516-validacao-agencia -> origin/prj/220516-validacao-agencia
+ * [new branch]      psh/331432            -> origin/psh/331432
+ * [new branch]      rav/nova-validacao-detalhes -> origin/rav/nova-validacao-detalhes
+ * [new branch]      rc/220516-validacao-agencia -> origin/rc/220516-validacao-agencia
+ * [new branch]      rc/243754             -> origin/rc/243754
+ * [new branch]      rc/312175-Tipo-Pagto  -> origin/rc/312175-Tipo-Pagto
+ * [new branch]      rc/346886-conversao-arquivo-xlsx-cnab -> origin/rc/346886-conversao-arquivo-xlsx-cnab
+ * [new branch]      rc/Range-Data-Pagto   -> origin/rc/Range-Data-Pagto
+ * [new branch]      rc/alpha-version-test -> origin/rc/alpha-version-test
+ * [new branch]      rc/arq                -> origin/rc/arq
+ * [new branch]      rc/gc/309743-nova-validacao-agencia-zerada -> origin/rc/gc/309743-nova-validacao-agencia-zerada
+ * [new branch]      rc/gcv/293598-ajuste-validacao-estrutural -> origin/rc/gcv/293598-ajuste-validacao-estrutural
+ * [new branch]      rc/nova-validacao-detalhes -> origin/rc/nova-validacao-detalhes
+Enumerating objects: 806, done.
+Counting objects: 100% (806/806), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (426/426), done.
+Writing objects: 100% (806/806), done.
+Total 806 (delta 413), reused 719 (delta 360), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Authorization.Proxy.Dsl.Lib
+remote: Azure Repos
+remote: Found 200 objects to send. (10 ms)
+Receiving objects: 100% (200/200), 51.87 KiB | 5.76 MiB/s, done.
+Resolving deltas: 100% (115/115), completed with 34 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Authorization.Proxy.Dsl.Lib
+   f29c6be..88b0442  develop         -> origin/develop
+ * [new branch]      feature/225078-performace-authorization -> origin/feature/225078-performace-authorization
+ * [new branch]      rc/poc-template -> origin/rc/poc-template
+ * [new branch]      rc/wms/225078-ajuste-auth -> origin/rc/wms/225078-ajuste-auth
+ * [new branch]      rc/wms/235460-limpeza-authorization -> origin/rc/wms/235460-limpeza-authorization
+ * [new branch]      rc/wms/235460-limpeza-ignorando-nulos -> origin/rc/wms/235460-limpeza-ignorando-nulos
+ * [new branch]      rc/wms/237186-sem-accounts -> origin/rc/wms/237186-sem-accounts
+ * [new branch]      rc/wms/237186-sem-clients -> origin/rc/wms/237186-sem-clients
+Enumerating objects: 2120, done.
+Counting objects: 100% (2120/2120), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1089/1089), done.
+Writing objects: 100% (2120/2120), done.
+Total 2120 (delta 1094), reused 1984 (delta 958), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning CentralNotificacao.Dsl.Lib
+remote: Azure Repos
+remote: Found 59 objects to send. (31 ms)
+Unpacking objects: 100% (59/59), 10.68 KiB | 7.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.CentralNotificacao.Dsl.Lib
+   4419b13..278abce  develop                 -> origin/develop
+ * [new branch]      eog/255154_MOTIVADOR_NOTIFICACAO_LOTE -> origin/eog/255154_MOTIVADOR_NOTIFICACAO_LOTE
+ * [new branch]      rc/EOG_255154_MOTIVADOR_NOTIFICACAO_LOTE -> origin/rc/EOG_255154_MOTIVADOR_NOTIFICACAO_LOTE
+ * [new branch]      wms/notificacao-usuario -> origin/wms/notificacao-usuario
+Enumerating objects: 243, done.
+Counting objects: 100% (243/243), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (167/167), done.
+Writing objects: 100% (243/243), done.
+Total 243 (delta 123), reused 154 (delta 72), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Transacoes.Dsl.Lib
+Enumerating objects: 382, done.
+Counting objects: 100% (382/382), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (186/186), done.
+Writing objects: 100% (382/382), done.
+Total 382 (delta 164), reused 382 (delta 164), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.ESB.Cobranca
+remote: TF401019: The Git repository with name or identifier ABCBrasil.ESB.Cobranca does not exist or you do not have permissions for the operation you are attempting.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Enumerating objects: 1672, done.
+Counting objects: 100% (1672/1672), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (808/808), done.
+Writing objects: 100% (1672/1672), done.
+Total 1672 (delta 807), reused 1672 (delta 807), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Arquivos.Job.ArquivoRemessa
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Arquivos.Job.ArquivoRemessa
+ - [deleted]         (none)                  -> origin/psh/124268-Correcao-Falha-Conta-Inexistente
+ - [deleted]         (none)                  -> origin/psh/124268-Falha-Processamento-Arquivo
+ - [deleted]         (none)                  -> origin/psh/135546-Seu-Numero
+ - [deleted]         (none)                  -> origin/psh/Adicao-Logs-Erro
+remote: Azure Repos
+remote: Found 337 objects to send. (54 ms)
+Receiving objects: 100% (337/337), 51.94 KiB | 5.19 MiB/s, done.
+Resolving deltas: 100% (200/200), completed with 26 local objects.
+   042fee9..a652946  develop                 -> origin/develop
+ * [new branch]      development/yellow      -> origin/development/yellow
+ * [new branch]      feature/178517-ajuste-validacao-conta-debito -> origin/feature/178517-ajuste-validacao-conta-debito
+ * [new branch]      feature/187885-remocao-registro-BD -> origin/feature/187885-remocao-registro-BD
+ * [new branch]      feature/270648-parametrizacao-feriado-local -> origin/feature/270648-parametrizacao-feriado-local
+ * [new branch]      feature/286928-migracao-dotnet-6 -> origin/feature/286928-migracao-dotnet-6
+ * [new branch]      feature/308142-campo-seunumero-na-identificacao -> origin/feature/308142-campo-seunumero-na-identificacao
+ * [new branch]      feature/347062-migracao-sqs -> origin/feature/347062-migracao-sqs
+ * [new branch]      gc/243754-update-version-lib-arquivos -> origin/gc/243754-update-version-lib-arquivos
+ * [new branch]      gc/243754-update-version-lib-arquivos-revert-from-develop -> origin/gc/243754-update-version-lib-arquivos-revert-from-develop
+ * [new branch]      gc/309743-atualizacao-lib-validacao-agencia-zerada -> origin/gc/309743-atualizacao-lib-validacao-agencia-zerada
+ * [new branch]      prj/remover-registro-bd -> origin/prj/remover-registro-bd
+ * [new branch]      psh/159272-Correcao-Data-Pagamento -> origin/psh/159272-Correcao-Data-Pagamento
+ * [new branch]      psh/331432              -> origin/psh/331432
+Enumerating objects: 682, done.
+Counting objects: 100% (682/682), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (324/324), done.
+Writing objects: 100% (682/682), done.
+Total 682 (delta 376), reused 641 (delta 339), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Arquivos.Job.ArquivoRetorno
+remote: Azure Repos
+remote: Found 257 objects to send. (4 ms)
+Receiving objects: 100% (257/257), 45.57 KiB | 5.06 MiB/s, done.
+Resolving deltas: 100% (157/157), completed with 30 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Arquivos.Job.ArquivoRetorno
+   d96266d..806416d  develop              -> origin/develop
+ * [new branch]      development/yellow   -> origin/development/yellow
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+ * [new branch]      feature/quality-gate -> origin/feature/quality-gate
+ * [new branch]      gc/243529-gerar-config-arquivo -> origin/gc/243529-gerar-config-arquivo
+ * [new branch]      gc/266510-novo-logge-registros-obtidos -> origin/gc/266510-novo-logge-registros-obtidos
+ * [new branch]      gcv/269520-migrar-dotnet-6 -> origin/gcv/269520-migrar-dotnet-6
+ * [new branch]      psh/222425           -> origin/psh/222425
+ * [new branch]      psh/222425-MD        -> origin/psh/222425-MD
+Enumerating objects: 618, done.
+Counting objects: 100% (618/618), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (275/275), done.
+Writing objects: 100% (618/618), done.
+Total 618 (delta 354), reused 586 (delta 322), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Arquivos.Job.RetornoCore
+fatal: detected dubious ownership in repository at 'D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore'
+'D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore' is owned by:
+        BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+        STORMBREAKER/Carlos (S-1-5-21-3448335968-2472423079-876471464-1001)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore
+fatal: detected dubious ownership in repository at 'D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore'
+'D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore' is owned by:
+        BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+        STORMBREAKER/Carlos (S-1-5-21-3448335968-2472423079-876471464-1001)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory D:/CWI/ABCBank/Servicos/Jobs/Arquivos.Job.RetornoCore
+########################################
+
+########################################
+Fetching and cleaning CentralNotificacao.Job.Agregador
+remote: Azure Repos
+remote: Found 74 objects to send. (50 ms)
+Unpacking objects: 100% (74/74), 9.88 KiB | 6.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.CentralNotificacao.Job.Agregador
+   d5044fc..c5caf19  develop                 -> origin/develop
+ * [new branch]      eog/255154_274442_MOTIVADOR_NOTIFICACAO_LOTE -> origin/eog/255154_274442_MOTIVADOR_NOTIFICACAO_LOTE
+ * [new branch]      feature/285462-285460-notificacao-por-cnpj -> origin/feature/285462-285460-notificacao-por-cnpj
+ * [new branch]      feature/quality-gate    -> origin/feature/quality-gate
+ * [new branch]      psh/343300-Melhoria-Log -> origin/psh/343300-Melhoria-Log
+Enumerating objects: 327, done.
+Counting objects: 100% (327/327), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (219/219), done.
+Writing objects: 100% (327/327), done.
+Total 327 (delta 155), reused 231 (delta 92), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning CentralNotificacao.Job.EnvioEmail
+Enumerating objects: 199, done.
+Counting objects: 100% (199/199), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (127/127), done.
+Writing objects: 100% (199/199), done.
+Total 199 (delta 66), reused 199 (delta 66), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning CentralNotificacao.Job.Processamento
+remote: Azure Repos
+remote: Found 239 objects to send. (74 ms)
+Receiving objects: 100% (239/239), 67.00 KiB | 6.70 MiB/s, done.
+Resolving deltas: 100% (117/117), completed with 27 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.CentralNotificacao.Job.Processamento
+   fc4ef3a..d7348e9  develop                 -> origin/develop
+ * [new branch]      development/yellow      -> origin/development/yellow
+ * [new branch]      feature/285462-285460-notificacao-por-cnpj -> origin/feature/285462-285460-notificacao-por-cnpj
+ * [new branch]      feature/quality-gate    -> origin/feature/quality-gate
+ * [new branch]      gcv/ajustes-agendamento -> origin/gcv/ajustes-agendamento
+ * [new branch]      tst/situacao-em-fila-de-envio -> origin/tst/situacao-em-fila-de-envio
+Enumerating objects: 504, done.
+Counting objects: 100% (504/504), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (248/248), done.
+Writing objects: 100% (504/504), done.
+Total 504 (delta 309), reused 441 (delta 246), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning CentralNotificacao.Job.Validacao
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.CentralNotificacao.Job.Validacao
+ - [deleted]         (none)               -> origin/feature/ajustes-agregador-e-agendamento
+remote: Azure Repos
+remote: Found 108 objects to send. (10 ms)
+Receiving objects: 100% (108/108), 22.48 KiB | 3.75 MiB/s, done.
+Resolving deltas: 100% (67/67), completed with 18 local objects.
+   171e46c..585d4ea  develop              -> origin/develop
+ * [new branch]      development/yellow   -> origin/development/yellow
+ * [new branch]      eog/255154_274442_MOTIVADOR_NOTIFICACAO_LOTE -> origin/eog/255154_274442_MOTIVADOR_NOTIFICACAO_LOTE
+ * [new branch]      eog/NOTIFICACAO_PIX  -> origin/eog/NOTIFICACAO_PIX
+ * [new branch]      feature/285462-285460-notificacao-por-cnpj -> origin/feature/285462-285460-notificacao-por-cnpj
+ * [new branch]      feature/quality-gate -> origin/feature/quality-gate
+Enumerating objects: 572, done.
+Counting objects: 100% (572/572), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (209/209), done.
+Writing objects: 100% (572/572), done.
+Total 572 (delta 381), reused 541 (delta 354), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.RecebeTransferenciasArquivos.Robot
+remote: Azure Repos
+remote: Found 454 objects to send. (8 ms)
+Receiving objects: 100% (454/454), 143.15 KiB | 1.08 MiB/s, done.
+Resolving deltas: 100% (265/265), completed with 48 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.RecebeTransferenciasArquivos.Robot
+   c95730a..dbb38b9  develop         -> origin/develop
+ * [new branch]      eog/255154_MOTIVADOR_NOTIFICACAO_LOTE -> origin/eog/255154_MOTIVADOR_NOTIFICACAO_LOTE
+   78529a9..06cae3d  feature/213341-envio-transferencia-monitor -> origin/feature/213341-envio-transferencia-monitor
+ * [new branch]      feature/247672-ajuste-horario-transacoes-robot -> origin/feature/247672-ajuste-horario-transacoes-robot
+ * [new branch]      feature/271584-parametrizacao-feriado-local -> origin/feature/271584-parametrizacao-feriado-local
+ * [new branch]      feature/278911-aprovacao-auto-pgto-integrado -> origin/feature/278911-aprovacao-auto-pgto-integrado
+ * [new branch]      feature/278911-aprovacao-auto-pgto-integrado-2 -> origin/feature/278911-aprovacao-auto-pgto-integrado-2
+ * [new branch]      feature/278911-aprovacao-auto-pgto-integrado-2-revert-from-develop -> origin/feature/278911-aprovacao-auto-pgto-integrado-2-revert-from-develop
+ * [new branch]      feature/278911-aprovacao-auto-pgto-integrado-e-308142-campo-seunumero-na-identificacao -> origin/feature/278911-aprovacao-auto-pgto-integrado-e-308142-campo-seunumero-na-identificacao
+ * [new branch]      feature/308142-campo-seunumero-na-identificacao -> origin/feature/308142-campo-seunumero-na-identificacao
+ * [new branch]      feature/333896-migracao-producer-agendador -> origin/feature/333896-migracao-producer-agendador
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+ * [new branch]      feature/time-branco/194931-remover-critica-agencia -> origin/feature/time-branco/194931-remover-critica-agencia
+ * [new branch]      gc/290155-implementar-codigo-spb -> origin/gc/290155-implementar-codigo-spb
+ * [new branch]      gc/293784-ajuste-processo-devolucao -> origin/gc/293784-ajuste-processo-devolucao
+ * [new branch]      gc/302836-ajuste-validacao -> origin/gc/302836-ajuste-validacao
+ * [new branch]      jvsp/consulta-de-convenio -> origin/jvsp/consulta-de-convenio
+ * [new branch]      mv/migracao-sqs -> origin/mv/migracao-sqs
+ * [new branch]      mv/rebase       -> origin/mv/rebase
+ * [new branch]      prj/194931-dev  -> origin/prj/194931-dev
+Enumerating objects: 1288, done.
+Counting objects: 100% (1288/1288), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (709/709), done.
+Writing objects: 100% (1288/1288), done.
+Total 1288 (delta 757), reused 992 (delta 538), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ConsultaCIP.Robot
+remote: Azure Repos
+remote: Found 82 objects to send. (20 ms)
+Unpacking objects: 100% (82/82), 20.95 KiB | 22.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.ConsultaCIP.Robot
+   8b06fd8..a5bcac0  develop         -> origin/develop
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+ * [new branch]      mv/migracao-sqs -> origin/mv/migracao-sqs
+ * [new branch]      mv/rebase       -> origin/mv/rebase
+Enumerating objects: 1899, done.
+Counting objects: 100% (1899/1899), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (951/951), done.
+Writing objects: 100% (1899/1899), done.
+Total 1899 (delta 1021), reused 1675 (delta 849), pack-reused 0 (from 0)
+Removing duplicate objects: 100% (256/256), done.
+########################################
+
+########################################
+Fetching and cleaning ExportacaoConsultaTransacoes.Robot
+remote: Azure Repos
+remote: Found 68 objects to send. (17 ms)
+Unpacking objects: 100% (68/68), 11.55 KiB | 7.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.ExportacaoConsultaTransacoes.Robot
+   7297fde..9b5e954  develop              -> origin/develop
+ * [new branch]      eog/160143_ORDENACAO_CONSULTA_TRANSACAO_CHANGE -> origin/eog/160143_ORDENACAO_CONSULTA_TRANSACAO_CHANGE
+ * [new branch]      eog/238838_ORDENACAO_SEQUENCIAL -> origin/eog/238838_ORDENACAO_SEQUENCIAL
+ * [new branch]      eog/284861_TRANSACOES_INCONSISTENTES -> origin/eog/284861_TRANSACOES_INCONSISTENTES
+ * [new branch]      feature/quality-gate -> origin/feature/quality-gate
+Enumerating objects: 557, done.
+Counting objects: 100% (557/557), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (263/263), done.
+Writing objects: 100% (557/557), done.
+Total 557 (delta 346), reused 463 (delta 285), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning NotificacaoInicializadora.Robot
+Enumerating objects: 666, done.
+Counting objects: 100% (666/666), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (354/354), done.
+Writing objects: 100% (666/666), done.
+Total 666 (delta 372), reused 509 (delta 287), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning OldRecebePagamentosArquivos.Robot
+remote: Azure Repos
+remote: Found 816 objects to send. (28 ms)
+Receiving objects: 100% (816/816), 234.72 KiB | 1.31 MiB/s, done.
+Resolving deltas: 100% (483/483), completed with 45 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.RecebePagamentosArquivos.Robot
+   058eb43..f057d2f  prj/adicionando-dcorigem -> origin/prj/adicionando-dcorigem
+ * [new branch]      ademi/247331-remocao-workerretornocip -> origin/ademi/247331-remocao-workerretornocip
+ * [new branch]      ademi/dotnet-6        -> origin/ademi/dotnet-6
+   e0ae8f0..0e7d711  develop               -> origin/develop
+ * [new branch]      eog/255154_MOTIVADOR_NOTIFICACAO_LOTE -> origin/eog/255154_MOTIVADOR_NOTIFICACAO_LOTE
+ * [new branch]      featura/monitor-transacional -> origin/featura/monitor-transacional
+ * [new branch]      feature/172395-refatoracao-horario-notificacao-boleto -> origin/feature/172395-refatoracao-horario-notificacao-boleto
+ * [new branch]      feature/213243-monitor-transacao -> origin/feature/213243-monitor-transacao
+ * [new branch]      feature/238132-validar-valor-divergente-cip -> origin/feature/238132-validar-valor-divergente-cip
+ * [new branch]      feature/247331-fluxo-transmissao-arquivos -> origin/feature/247331-fluxo-transmissao-arquivos
+ * [new branch]      feature/270648-parametrizacao-feriado-local -> origin/feature/270648-parametrizacao-feriado-local
+ * [new branch]      feature/333896-migracao-producer-agendador -> origin/feature/333896-migracao-producer-agendador
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+ * [new branch]      feature/ajuste-exclusao-pix -> origin/feature/ajuste-exclusao-pix
+ * [new branch]      gc/201521-update-versao-lib-calendario -> origin/gc/201521-update-versao-lib-calendario
+ * [new branch]      gc/225437-update-lib-calendario -> origin/gc/225437-update-lib-calendario
+ * [new branch]      gc/235284-ajuste-duplicidade-sequencial-cip -> origin/gc/235284-ajuste-duplicidade-sequencial-cip
+ * [new branch]      gc/336356-implementacao-devolucao-boleto -> origin/gc/336356-implementacao-devolucao-boleto
+ * [new branch]      gcv/213243-ajuste-versao-monitor -> origin/gcv/213243-ajuste-versao-monitor
+ * [new branch]      grs/284249-duplicidade-boleto -> origin/grs/284249-duplicidade-boleto
+ * [new branch]      ibj/Ajuste_Dt_limite_Retroativa -> origin/ibj/Ajuste_Dt_limite_Retroativa
+ * [new branch]      jpc/248964-atualizar-dslib-monitor -> origin/jpc/248964-atualizar-dslib-monitor
+ * [new branch]      mv/ajuste-mensagem-duplicidade -> origin/mv/ajuste-mensagem-duplicidade
+ * [new branch]      mv/migracao-sqs       -> origin/mv/migracao-sqs
+ * [new branch]      mv/rebase             -> origin/mv/rebase
+ * [new branch]      psh/Melhoria-Log      -> origin/psh/Melhoria-Log
+ * [new branch]      psh/Teste-Notificacao -> origin/psh/Teste-Notificacao
+Enumerating objects: 1934, done.
+Counting objects: 100% (1934/1934), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (952/952), done.
+Writing objects: 100% (1934/1934), done.
+Total 1934 (delta 1203), reused 1624 (delta 942), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning Pix.Contestacao.Robot
+remote: Azure Repos
+remote: Found 75 objects to send. (75 ms)
+Unpacking objects: 100% (75/75), 11.46 KiB | 6.00 KiB/s, done.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Pix.Contestacao.Robot
+   6509e44..142c869  feature/253510-monitorar-alteracao-status -> origin/feature/253510-monitorar-alteracao-status
+ * [new branch]      afs/ajustes-conectividade-v1 -> origin/afs/ajustes-conectividade-v1
+ * [new branch]      afs/analise-kafka-leaving-group -> origin/afs/analise-kafka-leaving-group
+   e1b9b85..a631044  develop    -> origin/develop
+Enumerating objects: 604, done.
+Counting objects: 100% (604/604), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (419/419), done.
+Writing objects: 100% (604/604), done.
+Total 604 (delta 234), reused 431 (delta 122), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ProcessaLoteDDA.Robot
+remote: Azure Repos
+remote: Found 5 objects to send. (3 ms)
+Unpacking objects: 100% (5/5), 433 bytes | 4.00 KiB/s, done.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.ProcessaLoteDDA.Robot
+   b6117d7..aff2952  feature/307790-processamento-envio-aprovacao -> origin/feature/307790-processamento-envio-aprovacao
+Enumerating objects: 1165, done.
+Counting objects: 100% (1165/1165), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (554/554), done.
+Writing objects: 100% (1165/1165), done.
+Total 1165 (delta 660), reused 1077 (delta 577), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ProcessaLotePagamentos.Robot
+Enumerating objects: 2686, done.
+Counting objects: 100% (2686/2686), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1139/1139), done.
+Writing objects: 100% (2686/2686), done.
+Total 2686 (delta 1789), reused 2352 (delta 1502), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning RecebePagamentosArquivos.Robot
+remote: Azure Repos
+remote: Found 100 objects to send. (21 ms)
+Receiving objects: 100% (100/100), 41.17 KiB | 726.00 KiB/s, done.
+Resolving deltas: 100% (60/60), completed with 5 local objects.
+From ssh_abcBrasil:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.RecebePagamentosArquivos.Robot
+   fdb5109..0e7d711  develop         -> origin/develop
+ * [new branch]      feature/346772-migracao-sqs -> origin/feature/346772-migracao-sqs
+ * [new branch]      mv/migracao-sqs -> origin/mv/migracao-sqs
+ * [new branch]      mv/rebase       -> origin/mv/rebase
+Enumerating objects: 1938, done.
+Counting objects: 100% (1938/1938), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (900/900), done.
+Writing objects: 100% (1938/1938), done.
+Total 1938 (delta 1249), reused 1673 (delta 999), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Template.Api
+remote: Azure Repos
+remote: Found 1026 objects to send. (34 ms)
+Receiving objects: 100% (1026/1026), 209.05 KiB | 1.43 MiB/s, done.
+Resolving deltas: 100% (604/604), completed with 76 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Template.Api
+   937b92d..49a25e7  develop                -> origin/develop
+ * [new branch]      afs/break-quality-gate-test -> origin/afs/break-quality-gate-test
+ * [new branch]      afs/code-coverage      -> origin/afs/code-coverage
+ * [new branch]      afs/code-smell         -> origin/afs/code-smell
+ * [new branch]      afs/poc-s3-derivativos -> origin/afs/poc-s3-derivativos
+ * [new branch]      afs/remove-setup-test-resource -> origin/afs/remove-setup-test-resource
+ * [new branch]      afs/validacao-novo-yml -> origin/afs/validacao-novo-yml
+ * [new branch]      feature/quality-gate   -> origin/feature/quality-gate
+ * [new branch]      lp/pipeline_validacao_dto -> origin/lp/pipeline_validacao_dto
+ * [new branch]      lp/uso_do_memorycache  -> origin/lp/uso_do_memorycache
+Enumerating objects: 1522, done.
+Counting objects: 100% (1522/1522), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (703/703), done.
+Writing objects: 100% (1522/1522), done.
+Total 1522 (delta 851), reused 1444 (delta 773), pack-reused 0 (from 0)
+########################################
+
+########################################
+Fetching and cleaning ABCBrasil.IB.Corporate.Template.Robot
+remote: Azure Repos
+remote: Found 130 objects to send. (101 ms)
+Receiving objects: 100% (130/130), 27.06 KiB | 359.00 KiB/s, done.
+Resolving deltas: 100% (32/32), completed with 13 local objects.
+From vs-ssh.visualstudio.com:v3/abcbrasil/InternetBankingPJ-Desenvolvimento/ABCBrasil.IB.Corporate.Template.Robot
+   912efae..e9ea9de  develop             -> origin/develop
+ * [new branch]      mhb/template-dotnet -> origin/mhb/template-dotnet
+Enumerating objects: 448, done.
+Counting objects: 100% (448/448), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (298/298), done.
+Writing objects: 100% (448/448), done.
+Total 448 (delta 213), reused 325 (delta 124), pack-reused 0 (from 0)
+########################################
+
+Cleanup complete
+
+Git Folders: 63
+Not Git Folders: 9
+Summary from Not Git Folders: 7
+
+D:\CWI\ABCBank\Servicos\POCs\CentralNotificacao
+D:\CWI\ABCBank\Servicos\POCs\ContratosJson
+D:\CWI\ABCBank\Servicos\POCs\Frontend
+D:\CWI\ABCBank\Servicos\Producer.SQS.Api\.cr
+D:\CWI\ABCBank\Servicos\Producer.SQS.Api\.vscode
+D:\CWI\ABCBank\Servicos\Producer.SQS.Api\Producer.SQS.Api
+D:\CWI\ABCBank\Servicos\Robos\ABCBrasil.IB.Corporate.RecebePagamentosArquivos.Robot

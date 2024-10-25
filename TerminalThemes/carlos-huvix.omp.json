@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "final_space": true,
+  "console_title_template": "{{.PWD}}{{if .Root}} :: root{{end}}",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "plain",
+          "template": "➜ {{ if .SSHSession }} {{ end }}{{ .UserName }}@{{ .HostName }} on",
+          "background": "#242424",
+          "foreground": "#FFBB00"
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "template": " {{ .Path }} ",
+          "properties": {
+            "style": "agnoster_full"
+          },
+          "foreground": "#56B6C2"
+        },
+        {
+          "type": "executiontime",
+          "style": "powerline",
+          "template": "{{ .FormattedMs }}",
+          "properties": {
+            "always_enabled": false,
+            "style": "austin",
+            "threshold": 100
+          },
+          "foreground": "#FFAB91"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "git",
+          "style": "powerline",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#193549{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#193549{{ end }}",
+            "{{ if gt .Ahead 0 }}#193549{{ end }}",
+            "{{ if gt .Behind 0 }}#193549{{ end }}"
+          ],
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}",
+          "properties": {
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "untracked_modes": {
+              "/Users/user/Projects/oh-my-posh/": "no"
+            }
+          },
+          "background": "#193549",
+          "foreground": "#FFE082",
+          "newline": true
+        }
+      ],
+      "newline": true
+    }
+  ]
+}
