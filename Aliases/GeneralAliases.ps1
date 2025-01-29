@@ -5,6 +5,7 @@
 #winget upgrade JanDeDobbeleer.OhMyPosh -s winget
 #Add-Alias ohPoshUpgrade 'winget upgrade JanDeDobbeleer.OhMyPosh -s winget'
 Add-Alias ohPoshUpgrade 'oh-my-posh upgrade'
+Add-Alias wingetUpdate 'winget list --upgrade-available --include-unknown'
 #oh-my-posh config migrate glyphs --write
 
 #endregion
@@ -19,16 +20,16 @@ Add-Alias ohPoshUpgrade 'oh-my-posh upgrade'
 
 Add-Alias rebuild 'dotnet clean; dotnet restore --interactive; dotnet build'
 Add-Alias build 'dotnet build'
-Add-Alias nugetdis 'dotnet nuget disable source'
+Add-Alias nugetDis 'dotnet nuget disable source'
 
 
-function Nuget-DisableSource {
-    param (
-        [Parameter(Mandatory = $true)]
-        [string]$source
-    )
+# function Nuget-DisableSource {
+#     param (
+#         [Parameter(Mandatory = $true)]
+#         [string]$source
+#     )
 
-    #dotnet nuget list source
-    #git checkout -b "us-$feature/feat" $from
-}
+#     #dotnet nuget list source
+#     #git checkout -b "us-$feature/feat" $from
+# }
 #endregion

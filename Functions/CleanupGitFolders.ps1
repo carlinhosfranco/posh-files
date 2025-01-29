@@ -1,3 +1,10 @@
+<#
+Function to optimize git folders
+
+TODO:
+    - Add arguments to read from command line and set parameters
+#>
+
 function Write-Log {
     param (
         [Parameter(Mandatory = $false)]
@@ -6,6 +13,13 @@ function Write-Log {
 
     Write-Host $logString
     Write-Prompt $logString
+}
+
+function Git-Commands {
+    param ()
+
+    git fetch -ap
+    git gc --force
 }
 
 function Extract-Folders-Detailed {
@@ -110,8 +124,7 @@ function Optimize-Git-Local-Repos {
         $consoleLog = 'Fetching and cleaning ' + $currentItemName.Name
         Write-Log $consoleLog
         Set-Location -Path $currentItemName.ResolvedTarget
-        git fetch -ap
-        git gc --force
+        Git-Commands
         Write-Log '########################################'
         Write-Log ""
     }
@@ -141,4 +154,5 @@ Write-Log ""
 Optimize-Git-Local-Repos "${args}"
 # Write-Host "Number Arguments: " $args.Length
 # Write-Host "Arg: $args";
-#Optimize-Git-Local-Repos "D:\CWI\ABCBank\Servicos"
+#Optimize-Git-Local-Repos ""
+Optimize-Git-Local-Repos "FOLDER-NAME"
